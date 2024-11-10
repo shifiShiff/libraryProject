@@ -1,38 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\netCore\\Library\\",
+  "WorkspaceRootPath": "E:\\netCore\\Library\\libraryproject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57FF2E32-2778-46B6-A092-0F21239BF5BF}|LibraryUnitTest\\LibraryUnitTest.csproj|e:\\netcore\\library\\libraryunittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{57FF2E32-2778-46B6-A092-0F21239BF5BF}|LibraryUnitTest\\LibraryUnitTest.csproj|e:\\netcore\\library\\libraryproject\\libraryunittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57FF2E32-2778-46B6-A092-0F21239BF5BF}|LibraryUnitTest\\LibraryUnitTest.csproj|solutionrelative:libraryunittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.csproj|e:\\netcore\\library\\library\\helper\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.csproj|solutionrelative:library\\helper\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.csproj|e:\\netcore\\library\\library\\controllers\\subscribecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.csproj|solutionrelative:library\\controllers\\subscribecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.csproj|e:\\netcore\\library\\library\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.csproj|solutionrelative:library\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.csproj|e:\\netcore\\library\\library\\controllers\\borrowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.csproj|e:\\netcore\\library\\libraryproject\\library\\controllers\\borrowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.csproj|solutionrelative:library\\controllers\\borrowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.csproj|e:\\netcore\\library\\library\\modals\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.csproj|solutionrelative:library\\modals\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.csproj|e:\\netcore\\library\\libraryproject\\library\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.csproj|solutionrelative:library\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.csproj|e:\\netcore\\library\\library\\modals\\borrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.csproj|solutionrelative:library\\modals\\borrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC39639C-EF26-4A4A-8680-B9525AA7DFCC}|classLibrary\\classLibraryCore.csproj|e:\\netcore\\library\\libraryproject\\classlibrary\\services\\fakedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC39639C-EF26-4A4A-8680-B9525AA7DFCC}|classLibrary\\classLibraryCore.csproj|solutionrelative:classlibrary\\services\\fakedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.csproj|e:\\netcore\\library\\library\\modals\\subscribe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.csproj|solutionrelative:library\\modals\\subscribe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC39639C-EF26-4A4A-8680-B9525AA7DFCC}|classLibrary\\classLibraryCore.csproj|e:\\netcore\\library\\libraryproject\\classlibrary\\services\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC39639C-EF26-4A4A-8680-B9525AA7DFCC}|classLibrary\\classLibraryCore.csproj|solutionrelative:classlibrary\\services\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC39639C-EF26-4A4A-8680-B9525AA7DFCC}|classLibrary\\classLibraryCore.csproj|e:\\netcore\\library\\libraryproject\\classlibrary\\interfaces\\idatainteface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC39639C-EF26-4A4A-8680-B9525AA7DFCC}|classLibrary\\classLibraryCore.csproj|solutionrelative:classlibrary\\interfaces\\idatainteface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC39639C-EF26-4A4A-8680-B9525AA7DFCC}|classLibrary\\classLibraryCore.csproj|e:\\netcore\\library\\libraryproject\\classlibrary\\modals\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC39639C-EF26-4A4A-8680-B9525AA7DFCC}|classLibrary\\classLibraryCore.csproj|solutionrelative:classlibrary\\modals\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FF2E32-2778-46B6-A092-0F21239BF5BF}|LibraryUnitTest\\LibraryUnitTest.csproj|e:\\netcore\\library\\libraryproject\\libraryunittest\\libraryunittest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{57FF2E32-2778-46B6-A092-0F21239BF5BF}|LibraryUnitTest\\LibraryUnitTest.csproj|solutionrelative:libraryunittest\\libraryunittest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.csproj|e:\\netcore\\library\\libraryproject\\library\\controllers\\subscribecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.csproj|solutionrelative:library\\controllers\\subscribecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.csproj|e:\\netcore\\library\\libraryproject\\library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.csproj|solutionrelative:library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,112 +50,137 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Book.cs",
+              "DocumentMoniker": "E:\\netCore\\Library\\libraryproject\\classLibrary\\Modals\\Book.cs",
+              "RelativeDocumentMoniker": "classLibrary\\Modals\\Book.cs",
+              "ToolTip": "E:\\netCore\\Library\\libraryproject\\classLibrary\\Modals\\Book.cs",
+              "RelativeToolTip": "classLibrary\\Modals\\Book.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T19:01:25.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LibraryUnitTest",
+              "DocumentMoniker": "E:\\netCore\\Library\\libraryproject\\LibraryUnitTest\\LibraryUnitTest.csproj",
+              "RelativeDocumentMoniker": "LibraryUnitTest\\LibraryUnitTest.csproj",
+              "ToolTip": "E:\\netCore\\Library\\libraryproject\\LibraryUnitTest\\LibraryUnitTest.csproj",
+              "RelativeToolTip": "LibraryUnitTest\\LibraryUnitTest.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-10T18:35:07.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\netCore\\Library\\libraryproject\\Library\\Program.cs",
+              "RelativeDocumentMoniker": "Library\\Program.cs",
+              "ToolTip": "E:\\netCore\\Library\\libraryproject\\Library\\Program.cs",
+              "RelativeToolTip": "Library\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T18:19:48.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FakeData.cs",
+              "DocumentMoniker": "E:\\netCore\\Library\\libraryproject\\classLibrary\\Services\\FakeData.cs",
+              "RelativeDocumentMoniker": "classLibrary\\Services\\FakeData.cs",
+              "ToolTip": "E:\\netCore\\Library\\libraryproject\\classLibrary\\Services\\FakeData.cs",
+              "RelativeToolTip": "classLibrary\\Services\\FakeData.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T18:15:55.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Data.cs",
+              "DocumentMoniker": "E:\\netCore\\Library\\libraryproject\\classLibrary\\Services\\Data.cs",
+              "RelativeDocumentMoniker": "classLibrary\\Services\\Data.cs",
+              "ToolTip": "E:\\netCore\\Library\\libraryproject\\classLibrary\\Services\\Data.cs",
+              "RelativeToolTip": "classLibrary\\Services\\Data.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T18:01:06.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDataInteface.cs",
+              "DocumentMoniker": "E:\\netCore\\Library\\libraryproject\\classLibrary\\Interfaces\\IDataInteface.cs",
+              "RelativeDocumentMoniker": "classLibrary\\Interfaces\\IDataInteface.cs",
+              "ToolTip": "E:\\netCore\\Library\\libraryproject\\classLibrary\\Interfaces\\IDataInteface.cs",
+              "RelativeToolTip": "classLibrary\\Interfaces\\IDataInteface.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T17:51:18.705Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UnitTest1.cs",
-              "DocumentMoniker": "E:\\netCore\\Library\\LibraryUnitTest\\UnitTest1.cs",
+              "DocumentMoniker": "E:\\netCore\\Library\\libraryproject\\LibraryUnitTest\\UnitTest1.cs",
               "RelativeDocumentMoniker": "LibraryUnitTest\\UnitTest1.cs",
-              "ToolTip": "E:\\netCore\\Library\\LibraryUnitTest\\UnitTest1.cs",
+              "ToolTip": "E:\\netCore\\Library\\libraryproject\\LibraryUnitTest\\UnitTest1.cs",
               "RelativeToolTip": "LibraryUnitTest\\UnitTest1.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAUwCoAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T15:58:40.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "BorrowController.cs",
-              "DocumentMoniker": "E:\\netCore\\Library\\Library\\Controllers\\BorrowController.cs",
+              "DocumentMoniker": "E:\\netCore\\Library\\libraryproject\\Library\\Controllers\\BorrowController.cs",
               "RelativeDocumentMoniker": "Library\\Controllers\\BorrowController.cs",
-              "ToolTip": "E:\\netCore\\Library\\Library\\Controllers\\BorrowController.cs",
+              "ToolTip": "E:\\netCore\\Library\\libraryproject\\Library\\Controllers\\BorrowController.cs",
               "RelativeToolTip": "Library\\Controllers\\BorrowController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAFcAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T14:05:25.725Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "BookController.cs",
-              "DocumentMoniker": "E:\\netCore\\Library\\Library\\Controllers\\BookController.cs",
+              "DocumentMoniker": "E:\\netCore\\Library\\libraryproject\\Library\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "Library\\Controllers\\BookController.cs",
-              "ToolTip": "E:\\netCore\\Library\\Library\\Controllers\\BookController.cs",
+              "ToolTip": "E:\\netCore\\Library\\libraryproject\\Library\\Controllers\\BookController.cs",
               "RelativeToolTip": "Library\\Controllers\\BookController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAowCkAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwCoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T12:54:49.073Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "SubscribeController.cs",
-              "DocumentMoniker": "E:\\netCore\\Library\\Library\\Controllers\\SubscribeController.cs",
+              "DocumentMoniker": "E:\\netCore\\Library\\libraryproject\\Library\\Controllers\\SubscribeController.cs",
               "RelativeDocumentMoniker": "Library\\Controllers\\SubscribeController.cs",
-              "ToolTip": "E:\\netCore\\Library\\Library\\Controllers\\SubscribeController.cs",
+              "ToolTip": "E:\\netCore\\Library\\libraryproject\\Library\\Controllers\\SubscribeController.cs",
               "RelativeToolTip": "Library\\Controllers\\SubscribeController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwE8AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBIAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T16:15:05.68Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Data.cs",
-              "DocumentMoniker": "E:\\netCore\\Library\\Library\\Helper\\Data.cs",
-              "RelativeDocumentMoniker": "Library\\Helper\\Data.cs",
-              "ToolTip": "E:\\netCore\\Library\\Library\\Helper\\Data.cs",
-              "RelativeToolTip": "Library\\Helper\\Data.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAB9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T13:24:04.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Borrow.cs",
-              "DocumentMoniker": "E:\\netCore\\Library\\Library\\Modals\\Borrow.cs",
-              "RelativeDocumentMoniker": "Library\\Modals\\Borrow.cs",
-              "ToolTip": "E:\\netCore\\Library\\Library\\Modals\\Borrow.cs",
-              "RelativeToolTip": "Library\\Modals\\Borrow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T12:38:23.897Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Subscribe.cs",
-              "DocumentMoniker": "E:\\netCore\\Library\\Library\\Modals\\Subscribe.cs",
-              "RelativeDocumentMoniker": "Library\\Modals\\Subscribe.cs",
-              "ToolTip": "E:\\netCore\\Library\\Library\\Modals\\Subscribe.cs",
-              "RelativeToolTip": "Library\\Modals\\Subscribe.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T12:38:04.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Book.cs",
-              "DocumentMoniker": "E:\\netCore\\Library\\Library\\Modals\\Book.cs",
-              "RelativeDocumentMoniker": "Library\\Modals\\Book.cs",
-              "ToolTip": "E:\\netCore\\Library\\Library\\Modals\\Book.cs",
-              "RelativeToolTip": "Library\\Modals\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T12:36:38.396Z"
             }
           ]
         }

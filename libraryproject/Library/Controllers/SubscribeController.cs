@@ -1,4 +1,4 @@
-﻿using Library.Helper;
+﻿using classLibraryCore.Interfaces;
 using Library.Modals;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,17 +9,20 @@ namespace Library.Controllers
     [ApiController]
     public class SubscribeController : ControllerBase
     {
+        private readonly IDataInteface _Data;
 
-        public SubscribeController()
+        public SubscribeController(IDataInteface context)
         {
-
+            _Data = context;
         }
+
+       
 
         // שליפת רשימת מנויים
         [HttpGet]
         public IEnumerable<Subscribe> Get()
         {
-            return Data.subscribers;
+            return _Data.subscribers;
         }
 
         // שליפת פרטי מנוי ע"פ שם או ת.ז
@@ -27,15 +30,15 @@ namespace Library.Controllers
         public Subscribe Get([FromQuery] string? id=null, [FromQuery] string? name = null)
         {
             if(id!=null)
-                return Data.GetSubscribeFromListById(id);
-            return Data.GetSubscribeFromListByName(name);
+                return _Data.GetSubscribeFromListById(id);
+            return _Data.GetSubscribeFromListByName(name);
         }
 
         // שליפת ת.ז ע"פ שם 
         [HttpGet("GetId")]
         public string Get([FromQuery] string Name)
         {
-                return Data.GetSubscribeFromListByName(Name).Id;
+                return _Data.GetSubscribeFromListByName(Name).Id;
             
         }
 
@@ -44,7 +47,7 @@ namespace Library.Controllers
         [HttpGet("filter")]
         public IEnumerable<Subscribe> Get([FromQuery] bool? IsActive = null, [FromQuery] int? NumOfBorrows = null, [FromQuery] int? age = null)
         {
-            List<Subscribe> SubscribeList = Data.subscribers;
+            List<Subscribe> SubscribeList = _Data.subscribers;
             if (IsActive != null)
                 SubscribeList = SubscribeList.Where(Sub => Sub.IsActive == IsActive).ToList();
 
@@ -64,7 +67,7 @@ namespace Library.Controllers
         [HttpPost]
         public void Post([FromBody] Subscribe s)
         {
-            Data.subscribers.Add(s);
+            _Data.subscribers.Add(s);
         }
 
 
@@ -72,7 +75,7 @@ namespace Library.Controllers
         [HttpPut("{id}")]
         public void Put(string id, [FromBody] Subscribe s)
         {
-            Subscribe SubscribeForUpdate = Data.subscribers.FirstOrDefault(s => s.Id == id);
+            Subscribe SubscribeForUpdate = _Data.subscribers.FirstOrDefault(s => s.Id == id);
             if (SubscribeForUpdate != null)
             {
                 SubscribeForUpdate.Address = s.Address;
@@ -89,7 +92,7 @@ namespace Library.Controllers
         [HttpDelete("{id}")]
         public void Delete(string id)
         {
-            Data.subscribers.FirstOrDefault(o => o.Id == id).IsActive = false;
+            _Data.subscribers.FirstOrDefault(o => o.Id == id).IsActive = false;
 
         }
     }

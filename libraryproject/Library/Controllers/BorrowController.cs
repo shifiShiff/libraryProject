@@ -1,6 +1,7 @@
 ﻿using Library.Modals;
 using Microsoft.AspNetCore.Mvc;
-using Library.Helper;
+using Library.Services;
+using classLibraryCore.Interfaces;
 
 
 namespace Library.Controllers
@@ -9,25 +10,32 @@ namespace Library.Controllers
     [ApiController]
     public class BorrowController : ControllerBase
     {
+        private readonly IDataInteface _Data;
+
+        public BorrowController(IDataInteface context)
+        {
+            _Data = context;
+        }
+
         // שליפת רשימת השאלות
         [HttpGet]
         public IEnumerable<Borrow> Get()
         {
-            return Data.borrows;
+            return _Data.borrows;
         }
 
         // שליפת רשימת השאלות שלא הוחזרו
         [HttpGet("select")]
         public Borrow Get([FromQuery] bool Isreturnl)
         {
-            return Data.borrows.FirstOrDefault(b => b.IsReturned==false);
+            return _Data.borrows.FirstOrDefault(b => b.IsReturned==false);
         }
 
         //שליפת השאלות לפי מנוי עם אופציה לשלוח האם השאלות שהוחזרו או לא
         [HttpGet("{Id}")]
         public IEnumerable<Borrow> Get(string Id, [FromQuery] bool? Isreturn = null)
         {
-            List<Borrow> SelectBorrow = Data.borrows;
+            List<Borrow> SelectBorrow = _Data.borrows;
             SelectBorrow = SelectBorrow.Where(m => m.Subscriber.Id == Id).ToList();
             if (Isreturn != null)
                 SelectBorrow = SelectBorrow.Where(m => m.IsReturned == Isreturn).ToList();
@@ -40,22 +48,22 @@ namespace Library.Controllers
         public void Post(int Code, string Id)
         {
 
-            if (Data.subscribers.FirstOrDefault(o => o.Id == Id) != null
-                && Data.books.FirstOrDefault(o => o.Code == Code).IsBorrowing == false)
+            if (_Data.subscribers.FirstOrDefault(o => o.Id == Id) != null
+                && _Data.books.FirstOrDefault(o => o.Code == Code).IsBorrowing == false)
             {
-                if (Data.subscribers.FirstOrDefault(o => o.Id == Id).NumOfCurrentBorrowing < 3)
+                if (_Data.subscribers.FirstOrDefault(o => o.Id == Id).NumOfCurrentBorrowing < 3)
                 {
-                    Data.books.FirstOrDefault(o => o.Code == Code).IsBorrowing = true;
-                    Data.subscribers.FirstOrDefault(o => o.Id == Id).NumOfBorrows++;
-                    Data.subscribers.FirstOrDefault(o => o.Id == Id).NumOfCurrentBorrowing++;
+                    _Data.books.FirstOrDefault(o => o.Code == Code).IsBorrowing = true;
+                    _Data.subscribers.FirstOrDefault(o => o.Id == Id).NumOfBorrows++;
+                    _Data.subscribers.FirstOrDefault(o => o.Id == Id).NumOfCurrentBorrowing++;
 
                     Borrow borrow = new Borrow();
-                    borrow.BorrowBook = Data.GetBookFromListByCode(Code);
-                    borrow.Subscriber = Data.GetSubscribeFromListById(Id);
+                    borrow.BorrowBook = _Data.GetBookFromListByCode(Code);
+                    borrow.Subscriber = _Data.GetSubscribeFromListById(Id);
                     borrow.BorrowDate = DateTime.Now;
                     borrow.BackDate = DateTime.Now.AddDays(10);
                     borrow.IsReturned = false;
-                    Data.borrows.Add(borrow);
+                    _Data.borrows.Add(borrow);
                 }
             }
         }
@@ -66,21 +74,21 @@ namespace Library.Controllers
         public void Put(int Code, [FromBody] Borrow b)
         {
             //בדיקה האם יש כזה קוד השאלה
-            if (Data.borrows.FirstOrDefault(o => o.BorrowCode == Code) != null)
+            if (_Data.borrows.FirstOrDefault(o => o.BorrowCode == Code) != null)
             {
                 //שינוי ספר ושחרור הספר הקודם
-                Data.books.FirstOrDefault(o => o.Code == b.BorrowBook.Code).IsBorrowing = true;
-                Data.borrows.FirstOrDefault(o => o.BorrowCode == Code).BorrowBook.IsBorrowing=false;
+                _Data.books.FirstOrDefault(o => o.Code == b.BorrowBook.Code).IsBorrowing = true;
+                _Data.borrows.FirstOrDefault(o => o.BorrowCode == Code).BorrowBook.IsBorrowing=false;
 
                 //שינוי מנוי ושחרור המנוי הקודם
-                Data.subscribers.FirstOrDefault(o => o.Id == b.Subscriber.Id).NumOfBorrows++;
-                Data.subscribers.FirstOrDefault(o => o.Id == b.Subscriber.Id).NumOfCurrentBorrowing++;
+                _Data.subscribers.FirstOrDefault(o => o.Id == b.Subscriber.Id).NumOfBorrows++;
+                _Data.subscribers.FirstOrDefault(o => o.Id == b.Subscriber.Id).NumOfCurrentBorrowing++;
 
-                Data.borrows.FirstOrDefault(o => o.BorrowCode == Code).Subscriber.NumOfBorrows--;
-                Data.borrows.FirstOrDefault(o => o.BorrowCode == Code).Subscriber.NumOfCurrentBorrowing--;
+                _Data.borrows.FirstOrDefault(o => o.BorrowCode == Code).Subscriber.NumOfBorrows--;
+                _Data.borrows.FirstOrDefault(o => o.BorrowCode == Code).Subscriber.NumOfCurrentBorrowing--;
 
 
-                Borrow BorrowForUpdate = Data.borrows.FirstOrDefault(o => o.BorrowCode == Code);
+                Borrow BorrowForUpdate = _Data.borrows.FirstOrDefault(o => o.BorrowCode == Code);
                 BorrowForUpdate.Subscriber = b.Subscriber;
                 BorrowForUpdate.BorrowBook = b.BorrowBook;
                 BorrowForUpdate.BorrowDate = b.BorrowDate;
@@ -97,11 +105,11 @@ namespace Library.Controllers
         [HttpDelete("{BorrowCode}")]
         public void Delete(int BorrowCode)
         {
-            if (Data.borrows.FirstOrDefault(o => o.BorrowCode == BorrowCode && o.IsReturned == false) != null)
+            if (_Data.borrows.FirstOrDefault(o => o.BorrowCode == BorrowCode && o.IsReturned == false) != null)
             {
-                Data.borrows.FirstOrDefault(o => o.BorrowCode == BorrowCode).BorrowBook.IsBorrowing = false;
-                Data.borrows.FirstOrDefault(o => o.BorrowCode == BorrowCode).Subscriber.NumOfCurrentBorrowing--;
-                Data.borrows.FirstOrDefault(o => o.BorrowCode == BorrowCode).IsReturned = true;
+                _Data.borrows.FirstOrDefault(o => o.BorrowCode == BorrowCode).BorrowBook.IsBorrowing = false;
+                _Data.borrows.FirstOrDefault(o => o.BorrowCode == BorrowCode).Subscriber.NumOfCurrentBorrowing--;
+                _Data.borrows.FirstOrDefault(o => o.BorrowCode == BorrowCode).IsReturned = true;
             }
 
         }

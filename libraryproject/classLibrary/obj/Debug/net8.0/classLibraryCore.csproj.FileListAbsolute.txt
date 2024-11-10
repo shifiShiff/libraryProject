@@ -1,0 +1,12 @@
+E:\netCore\Library\libraryproject\classLibrary\bin\Debug\net8.0\classLibraryCore.deps.json
+E:\netCore\Library\libraryproject\classLibrary\bin\Debug\net8.0\classLibraryCore.dll
+E:\netCore\Library\libraryproject\classLibrary\bin\Debug\net8.0\classLibraryCore.pdb
+E:\netCore\Library\libraryproject\classLibrary\obj\Debug\net8.0\classLibraryCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\netCore\Library\libraryproject\classLibrary\obj\Debug\net8.0\classLibraryCore.AssemblyInfoInputs.cache
+E:\netCore\Library\libraryproject\classLibrary\obj\Debug\net8.0\classLibraryCore.AssemblyInfo.cs
+E:\netCore\Library\libraryproject\classLibrary\obj\Debug\net8.0\classLibraryCore.csproj.CoreCompileInputs.cache
+E:\netCore\Library\libraryproject\classLibrary\obj\Debug\net8.0\classLibraryCore.sourcelink.json
+E:\netCore\Library\libraryproject\classLibrary\obj\Debug\net8.0\classLibraryCore.dll
+E:\netCore\Library\libraryproject\classLibrary\obj\Debug\net8.0\refint\classLibraryCore.dll
+E:\netCore\Library\libraryproject\classLibrary\obj\Debug\net8.0\classLibraryCore.pdb
+E:\netCore\Library\libraryproject\classLibrary\obj\Debug\net8.0\ref\classLibraryCore.dll

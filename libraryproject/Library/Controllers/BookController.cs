@@ -1,6 +1,7 @@
-﻿using Library.Helper;
+﻿using Library.Services;
 using Library.Modals;
 using Microsoft.AspNetCore.Mvc;
+using classLibraryCore.Interfaces;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -11,17 +12,19 @@ namespace Library.Controllers
     public class BookController : ControllerBase
     {
 
+        private readonly IDataInteface _Data;
 
-        public BookController()
+        public BookController(IDataInteface context)
         {
-            
+            _Data = context;
         }
+
        
         //שליפת כל רשימת הספרים
         [HttpGet]
         public IEnumerable<Book> Get()
         {
-            return Data.books;
+            return _Data.books;
         }
 
 
@@ -29,7 +32,7 @@ namespace Library.Controllers
         [HttpGet("BookName/{BookName}")]
         public int Get(string BookName)
         {        
-            return Data.books.FirstOrDefault(b => b.Name == BookName).Code;
+            return _Data.books.FirstOrDefault(b => b.Name == BookName).Code;
         }
 
 
@@ -37,7 +40,7 @@ namespace Library.Controllers
         [HttpGet("{bookCode}")]
         public ActionResult Get(int bookCode)
         {
-            var bookTmp= Data.GetBookFromListByCode(bookCode);
+            var bookTmp= _Data.GetBookFromListByCode(bookCode);
             if (bookTmp is null)
                 return NotFound();
             return Ok(bookTmp);
@@ -48,7 +51,7 @@ namespace Library.Controllers
         [HttpGet("filter")]
         public IEnumerable<Book> Get([FromQuery] Ecategory? category=null,  [FromQuery] bool? IsBorrowed = null)
         {
-            List<Book> BooksList = Data.books;
+            List<Book> BooksList = _Data.books;
             if (category != null)
                 BooksList = BooksList.Where(book => book.Category == category).ToList();
             
@@ -64,7 +67,7 @@ namespace Library.Controllers
         [HttpPost]
         public void Post([FromBody]Book b)
         {
-            Data.books.Add(b);
+            _Data.books.Add(b);
         }
 
 
@@ -74,7 +77,7 @@ namespace Library.Controllers
         public void Put(int id,[FromBody] Book b)
         {
 
-            var bookToUpdate = Data.books.FirstOrDefault(book => book.Code == id);
+            var bookToUpdate = _Data.books.FirstOrDefault(book => book.Code == id);
 
             if (bookToUpdate != null)
             {
@@ -92,7 +95,7 @@ namespace Library.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-            Data.books.Remove(Data.books.FirstOrDefault(b=>b.Code==id));
+            _Data.books.Remove(_Data.books.FirstOrDefault(b=>b.Code==id));
         }
     }
 }
