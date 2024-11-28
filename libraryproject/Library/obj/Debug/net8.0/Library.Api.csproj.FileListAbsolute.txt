@@ -1,0 +1,78 @@
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\bin\Debug\net8.0\appsettings.Development.json
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\bin\Debug\net8.0\appsettings.json
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\bin\Debug\net8.0\Library.Api.exe
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\bin\Debug\net8.0\Library.Api.deps.json
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\bin\Debug\net8.0\Library.Api.runtimeconfig.json
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\bin\Debug\net8.0\Library.Api.dll
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\bin\Debug\net8.0\Library.Api.pdb
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\bin\Debug\net8.0\Microsoft.OpenApi.dll
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\bin\Debug\net8.0\Library.Core.dll
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\bin\Debug\net8.0\Library.Data.dll
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\bin\Debug\net8.0\Library.Servicrs.dll
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\bin\Debug\net8.0\Library.Core.pdb
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\bin\Debug\net8.0\Library.Data.pdb
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\bin\Debug\net8.0\Library.Servicrs.pdb
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\obj\Debug\net8.0\Library.Api.csproj.AssemblyReference.cache
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\obj\Debug\net8.0\Library.Api.GeneratedMSBuildEditorConfig.editorconfig
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\obj\Debug\net8.0\Library.Api.AssemblyInfoInputs.cache
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\obj\Debug\net8.0\Library.Api.AssemblyInfo.cs
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\obj\Debug\net8.0\Library.Api.csproj.CoreCompileInputs.cache
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\obj\Debug\net8.0\Library.Api.MvcApplicationPartsAssemblyInfo.cs
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\obj\Debug\net8.0\Library.Api.MvcApplicationPartsAssemblyInfo.cache
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\obj\Debug\net8.0\Library.Api.sourcelink.json
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\obj\Debug\net8.0\staticwebassets.build.json
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\obj\Debug\net8.0\staticwebassets.development.json
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\obj\Debug\net8.0\staticwebassets\msbuild.Library.Api.Microsoft.AspNetCore.StaticWebAssets.props
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\obj\Debug\net8.0\staticwebassets\msbuild.build.Library.Api.props
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Library.Api.props
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Library.Api.props
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\obj\Debug\net8.0\staticwebassets.pack.json
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\obj\Debug\net8.0\scopedcss\bundle\Library.Api.styles.css
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\obj\Debug\net8.0\Library..F301F6DA.Up2Date
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\obj\Debug\net8.0\Library.Api.dll
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\obj\Debug\net8.0\refint\Library.Api.dll
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\obj\Debug\net8.0\Library.Api.pdb
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\obj\Debug\net8.0\Library.Api.genruntimeconfig.cache
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library\obj\Debug\net8.0\ref\Library.Api.dll
+C:\Users\User\Desktop\Library\libraryproject\Library\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\User\Desktop\Library\libraryproject\Library\bin\Debug\net8.0\appsettings.json
+C:\Users\User\Desktop\Library\libraryproject\Library\bin\Debug\net8.0\Library.Api.exe
+C:\Users\User\Desktop\Library\libraryproject\Library\bin\Debug\net8.0\Library.Api.deps.json
+C:\Users\User\Desktop\Library\libraryproject\Library\bin\Debug\net8.0\Library.Api.runtimeconfig.json
+C:\Users\User\Desktop\Library\libraryproject\Library\bin\Debug\net8.0\Library.Api.dll
+C:\Users\User\Desktop\Library\libraryproject\Library\bin\Debug\net8.0\Library.Api.pdb
+C:\Users\User\Desktop\Library\libraryproject\Library\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\User\Desktop\Library\libraryproject\Library\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\Desktop\Library\libraryproject\Library\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\Desktop\Library\libraryproject\Library\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\Desktop\Library\libraryproject\Library\bin\Debug\net8.0\Library.Core.dll
+C:\Users\User\Desktop\Library\libraryproject\Library\bin\Debug\net8.0\Library.Data.dll
+C:\Users\User\Desktop\Library\libraryproject\Library\bin\Debug\net8.0\Library.Servicrs.dll
+C:\Users\User\Desktop\Library\libraryproject\Library\bin\Debug\net8.0\Library.Core.pdb
+C:\Users\User\Desktop\Library\libraryproject\Library\bin\Debug\net8.0\Library.Data.pdb
+C:\Users\User\Desktop\Library\libraryproject\Library\bin\Debug\net8.0\Library.Servicrs.pdb
+C:\Users\User\Desktop\Library\libraryproject\Library\obj\Debug\net8.0\Library.Api.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Library\libraryproject\Library\obj\Debug\net8.0\Library.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Library\libraryproject\Library\obj\Debug\net8.0\Library.Api.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Library\libraryproject\Library\obj\Debug\net8.0\Library.Api.AssemblyInfo.cs
+C:\Users\User\Desktop\Library\libraryproject\Library\obj\Debug\net8.0\Library.Api.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Library\libraryproject\Library\obj\Debug\net8.0\Library.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Desktop\Library\libraryproject\Library\obj\Debug\net8.0\Library.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\Library\libraryproject\Library\obj\Debug\net8.0\Library.Api.sourcelink.json
+C:\Users\User\Desktop\Library\libraryproject\Library\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\User\Desktop\Library\libraryproject\Library\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\User\Desktop\Library\libraryproject\Library\obj\Debug\net8.0\staticwebassets\msbuild.Library.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Desktop\Library\libraryproject\Library\obj\Debug\net8.0\staticwebassets\msbuild.build.Library.Api.props
+C:\Users\User\Desktop\Library\libraryproject\Library\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Library.Api.props
+C:\Users\User\Desktop\Library\libraryproject\Library\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Library.Api.props
+C:\Users\User\Desktop\Library\libraryproject\Library\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\User\Desktop\Library\libraryproject\Library\obj\Debug\net8.0\scopedcss\bundle\Library.Api.styles.css
+C:\Users\User\Desktop\Library\libraryproject\Library\obj\Debug\net8.0\Library..F301F6DA.Up2Date
+C:\Users\User\Desktop\Library\libraryproject\Library\obj\Debug\net8.0\Library.Api.dll
+C:\Users\User\Desktop\Library\libraryproject\Library\obj\Debug\net8.0\refint\Library.Api.dll
+C:\Users\User\Desktop\Library\libraryproject\Library\obj\Debug\net8.0\Library.Api.pdb
+C:\Users\User\Desktop\Library\libraryproject\Library\obj\Debug\net8.0\Library.Api.genruntimeconfig.cache
+C:\Users\User\Desktop\Library\libraryproject\Library\obj\Debug\net8.0\ref\Library.Api.dll

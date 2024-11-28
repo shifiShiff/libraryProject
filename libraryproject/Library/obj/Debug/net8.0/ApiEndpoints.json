@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "Library.Controllers.BookController",
+    "ContainingType": "Library.Api.Controllers.BookController",
     "Method": "Get",
     "RelativePath": "api/Book",
     "HttpMethod": "GET",
@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Library.Modals.Book, classLibraryCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Library.Core.Modals.Book, Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "ContainingType": "Library.Controllers.BookController",
+    "ContainingType": "Library.Api.Controllers.BookController",
     "Method": "Post",
     "RelativePath": "api/Book",
     "HttpMethod": "POST",
@@ -29,7 +29,7 @@
     "Parameters": [
       {
         "Name": "b",
-        "Type": "Library.Modals.Book",
+        "Type": "Library.Core.Modals.Book",
         "IsRequired": true
       }
     ],
@@ -42,7 +42,7 @@
     ]
   },
   {
-    "ContainingType": "Library.Controllers.BookController",
+    "ContainingType": "Library.Api.Controllers.BookController",
     "Method": "Put",
     "RelativePath": "api/Book",
     "HttpMethod": "PUT",
@@ -56,7 +56,7 @@
       },
       {
         "Name": "b",
-        "Type": "Library.Modals.Book",
+        "Type": "Library.Core.Modals.Book",
         "IsRequired": true
       }
     ],
@@ -69,7 +69,7 @@
     ]
   },
   {
-    "ContainingType": "Library.Controllers.BookController",
+    "ContainingType": "Library.Api.Controllers.BookController",
     "Method": "Get",
     "RelativePath": "api/Book/{bookCode}",
     "HttpMethod": "GET",
@@ -85,7 +85,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Library.Controllers.BookController",
+    "ContainingType": "Library.Api.Controllers.BookController",
     "Method": "Delete",
     "RelativePath": "api/Book/{id}",
     "HttpMethod": "DELETE",
@@ -107,7 +107,7 @@
     ]
   },
   {
-    "ContainingType": "Library.Controllers.BookController",
+    "ContainingType": "Library.Api.Controllers.BookController",
     "Method": "Get",
     "RelativePath": "api/Book/BookName/{BookName}",
     "HttpMethod": "GET",
@@ -133,7 +133,7 @@
     ]
   },
   {
-    "ContainingType": "Library.Controllers.BookController",
+    "ContainingType": "Library.Api.Controllers.BookController",
     "Method": "Get",
     "RelativePath": "api/Book/filter",
     "HttpMethod": "GET",
@@ -153,7 +153,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Library.Modals.Book, classLibraryCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Library.Core.Modals.Book, Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -164,7 +164,7 @@
     ]
   },
   {
-    "ContainingType": "Library.Controllers.BorrowController",
+    "ContainingType": "Library.Api.Controllers.BorrowController",
     "Method": "Get",
     "RelativePath": "api/Borrow",
     "HttpMethod": "GET",
@@ -173,7 +173,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Library.Modals.Borrow, classLibraryCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Library.Core.Modals.Borrow, Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -184,7 +184,7 @@
     ]
   },
   {
-    "ContainingType": "Library.Controllers.BorrowController",
+    "ContainingType": "Library.Api.Controllers.BorrowController",
     "Method": "Delete",
     "RelativePath": "api/Borrow/{BorrowCode}",
     "HttpMethod": "DELETE",
@@ -206,7 +206,7 @@
     ]
   },
   {
-    "ContainingType": "Library.Controllers.BorrowController",
+    "ContainingType": "Library.Api.Controllers.BorrowController",
     "Method": "Put",
     "RelativePath": "api/Borrow/{Code}",
     "HttpMethod": "PUT",
@@ -220,7 +220,7 @@
       },
       {
         "Name": "b",
-        "Type": "Library.Modals.Borrow",
+        "Type": "Library.Core.Modals.Borrow",
         "IsRequired": true
       }
     ],
@@ -233,7 +233,7 @@
     ]
   },
   {
-    "ContainingType": "Library.Controllers.BorrowController",
+    "ContainingType": "Library.Api.Controllers.BorrowController",
     "Method": "Post",
     "RelativePath": "api/Borrow/{Code},{Id}",
     "HttpMethod": "POST",
@@ -260,7 +260,7 @@
     ]
   },
   {
-    "ContainingType": "Library.Controllers.BorrowController",
+    "ContainingType": "Library.Api.Controllers.BorrowController",
     "Method": "Get",
     "RelativePath": "api/Borrow/{Id}",
     "HttpMethod": "GET",
@@ -280,7 +280,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Library.Modals.Borrow, classLibraryCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Library.Core.Modals.Borrow, Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -291,7 +291,7 @@
     ]
   },
   {
-    "ContainingType": "Library.Controllers.BorrowController",
+    "ContainingType": "Library.Api.Controllers.BorrowController",
     "Method": "Get",
     "RelativePath": "api/Borrow/select",
     "HttpMethod": "GET",
@@ -299,14 +299,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Isreturnl",
+        "Name": "Isreturn",
         "Type": "System.Boolean",
         "IsRequired": false
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Library.Modals.Borrow",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Library.Core.Modals.Borrow, Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -317,7 +317,7 @@
     ]
   },
   {
-    "ContainingType": "Library.Controllers.SubscribeController",
+    "ContainingType": "Library.Api.Controllers.SubscribeController",
     "Method": "Get",
     "RelativePath": "api/Subscribe",
     "HttpMethod": "GET",
@@ -326,7 +326,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Library.Modals.Subscribe, classLibraryCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Library.Core.Modals.Subscribe, Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -337,7 +337,7 @@
     ]
   },
   {
-    "ContainingType": "Library.Controllers.SubscribeController",
+    "ContainingType": "Library.Api.Controllers.SubscribeController",
     "Method": "Post",
     "RelativePath": "api/Subscribe",
     "HttpMethod": "POST",
@@ -346,7 +346,7 @@
     "Parameters": [
       {
         "Name": "s",
-        "Type": "Library.Modals.Subscribe",
+        "Type": "Library.Core.Modals.Subscribe",
         "IsRequired": true
       }
     ],
@@ -359,7 +359,7 @@
     ]
   },
   {
-    "ContainingType": "Library.Controllers.SubscribeController",
+    "ContainingType": "Library.Api.Controllers.SubscribeController",
     "Method": "Put",
     "RelativePath": "api/Subscribe/{id}",
     "HttpMethod": "PUT",
@@ -373,7 +373,7 @@
       },
       {
         "Name": "s",
-        "Type": "Library.Modals.Subscribe",
+        "Type": "Library.Core.Modals.Subscribe",
         "IsRequired": true
       }
     ],
@@ -386,7 +386,7 @@
     ]
   },
   {
-    "ContainingType": "Library.Controllers.SubscribeController",
+    "ContainingType": "Library.Api.Controllers.SubscribeController",
     "Method": "Delete",
     "RelativePath": "api/Subscribe/{id}",
     "HttpMethod": "DELETE",
@@ -408,7 +408,7 @@
     ]
   },
   {
-    "ContainingType": "Library.Controllers.SubscribeController",
+    "ContainingType": "Library.Api.Controllers.SubscribeController",
     "Method": "Get",
     "RelativePath": "api/Subscribe/filter",
     "HttpMethod": "GET",
@@ -433,7 +433,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Library.Modals.Subscribe, classLibraryCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Library.Core.Modals.Subscribe, Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -444,7 +444,7 @@
     ]
   },
   {
-    "ContainingType": "Library.Controllers.SubscribeController",
+    "ContainingType": "Library.Api.Controllers.SubscribeController",
     "Method": "Get",
     "RelativePath": "api/Subscribe/get",
     "HttpMethod": "GET",
@@ -464,7 +464,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Library.Modals.Subscribe",
+        "Type": "Library.Core.Modals.Subscribe",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -475,7 +475,7 @@
     ]
   },
   {
-    "ContainingType": "Library.Controllers.SubscribeController",
+    "ContainingType": "Library.Api.Controllers.SubscribeController",
     "Method": "Get",
     "RelativePath": "api/Subscribe/GetId",
     "HttpMethod": "GET",

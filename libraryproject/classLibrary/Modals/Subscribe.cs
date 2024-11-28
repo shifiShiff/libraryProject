@@ -1,4 +1,4 @@
-﻿namespace Library.Modals
+﻿namespace Library.Core.Modals
 {
     public class Subscribe
     {
@@ -7,7 +7,7 @@
         public int Age { get; set; }
         public string Address { get; set; }
         public string Phone { get; set; }
-        public bool IsActive { get; set; }=true;
+        public bool IsActive { get; set; } = true;
         public int NumOfBorrows { get; set; } = 0;
         public int NumOfCurrentBorrowing { get; set; } = 0;
 

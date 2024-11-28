@@ -1,38 +1,49 @@
-﻿using Library.Services;
-using Library.Modals;
+﻿using Library.Core.Services;
+using Library.Core.Modals;
 using Microsoft.AspNetCore.Mvc;
-using classLibraryCore.Interfaces;
+using Library.Core.Interfaces;
+using Library.Servicrs;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace Library.Controllers
+namespace Library.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class BookController : ControllerBase
     {
 
-        private readonly IDataInteface _Data;
+        //private readonly IDataInteface _Data;
 
-        public BookController(IDataInteface context)
+
+
+        private readonly IBookService _bookService;
+
+        public BookController(IBookService bookService)
         {
-            _Data = context;
+            _bookService = bookService;
         }
 
-       
+
+        //public BookController(IDataInteface context)
+        //{
+        //    _Data = context;
+        //}
+
+
         //שליפת כל רשימת הספרים
         [HttpGet]
         public IEnumerable<Book> Get()
         {
-            return _Data.books;
+            return _bookService.GetAllBooks();
         }
 
 
         //שליפת קוד ספר ע"פ שם ספר (מחליף את סריקת הברקוד
         [HttpGet("BookName/{BookName}")]
         public int Get(string BookName)
-        {        
-            return _Data.books.FirstOrDefault(b => b.Name == BookName).Code;
+        {
+           return _bookService.GetBookCodeByName(BookName);
         }
 
 
@@ -40,7 +51,7 @@ namespace Library.Controllers
         [HttpGet("{bookCode}")]
         public ActionResult Get(int bookCode)
         {
-            var bookTmp= _Data.GetBookFromListByCode(bookCode);
+            var bookTmp = _bookService.GetBookById(bookCode);
             if (bookTmp is null)
                 return NotFound();
             return Ok(bookTmp);
@@ -49,45 +60,26 @@ namespace Library.Controllers
 
         //סינון רשימת ספרים לפי: קטגוריה/ לפי האם מושאל
         [HttpGet("filter")]
-        public IEnumerable<Book> Get([FromQuery] Ecategory? category=null,  [FromQuery] bool? IsBorrowed = null)
+        public IEnumerable<Book> Get([FromQuery] Ecategory? category = null, [FromQuery] bool? IsBorrowed = null)
         {
-            List<Book> BooksList = _Data.books;
-            if (category != null)
-                BooksList = BooksList.Where(book => book.Category == category).ToList();
-            
-            if (IsBorrowed != null)
-                BooksList = BooksList.Where(book => book.IsBorrowing == IsBorrowed).ToList();
-
-            return BooksList;
-
-
+            return _bookService.GetFilterList(category, IsBorrowed);
         }
 
         // הוספת ספר חדש לרשימת הספרים
         [HttpPost]
-        public void Post([FromBody]Book b)
+        public void Post([FromBody] Book b)
         {
-            _Data.books.Add(b);
+            _bookService.AddBook(b);
         }
 
 
 
         // עדכון ספר ע"פ קוד לפי ספר אחר שמתקבל
         [HttpPut()]
-        public void Put(int id,[FromBody] Book b)
+        public void Put(int id, [FromBody] Book b)
         {
 
-            var bookToUpdate = _Data.books.FirstOrDefault(book => book.Code == id);
-
-            if (bookToUpdate != null)
-            {
-                bookToUpdate.Author = b.Author;
-                bookToUpdate.Name = b.Name;
-                bookToUpdate.IsBorrowing = b.IsBorrowing;
-                bookToUpdate.DateOfBuying = b.DateOfBuying;
-                bookToUpdate.NumOfPages = b.NumOfPages;
-                bookToUpdate.Category = b.Category;
-            }
+            _bookService.ChangeBook(id, b);
         }
 
 
@@ -95,7 +87,7 @@ namespace Library.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-            _Data.books.Remove(_Data.books.FirstOrDefault(b=>b.Code==id));
+            _bookService.DeleteBook(id);
         }
     }
 }

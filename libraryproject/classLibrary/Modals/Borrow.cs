@@ -1,4 +1,4 @@
-﻿namespace Library.Modals
+﻿namespace Library.Core.Modals
 {
     public class Borrow
     {

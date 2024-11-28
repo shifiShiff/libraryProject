@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "V/TXwAUDn9VYsHrk5Kw4AL2G+bshRWZvshrCQK7JbGM=",
-  "Source": "Library",
-  "BasePath": "_content/Library",
+  "Hash": "ufO7HBSUU4DWmBpkryeGQJ5Z1LRnaGxsssHH8AQK2Lc=",
+  "Source": "Library.Api",
+  "BasePath": "_content/Library.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

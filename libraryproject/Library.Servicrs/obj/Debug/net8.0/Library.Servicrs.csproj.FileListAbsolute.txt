@@ -1,0 +1,32 @@
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library.Servicrs\bin\Debug\net8.0\Library.Servicrs.deps.json
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library.Servicrs\bin\Debug\net8.0\Library.Servicrs.dll
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library.Servicrs\bin\Debug\net8.0\Library.Servicrs.pdb
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library.Servicrs\bin\Debug\net8.0\Library.Core.dll
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library.Servicrs\bin\Debug\net8.0\Library.Core.pdb
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library.Servicrs.csproj.AssemblyReference.cache
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library.Servicrs.GeneratedMSBuildEditorConfig.editorconfig
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library.Servicrs.AssemblyInfoInputs.cache
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library.Servicrs.AssemblyInfo.cs
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library.Servicrs.csproj.CoreCompileInputs.cache
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library.Servicrs.sourcelink.json
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library..0D929DA2.Up2Date
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library.Servicrs.dll
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library.Servicrs\obj\Debug\net8.0\refint\Library.Servicrs.dll
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library.Servicrs.pdb
+F:\netCore\‏‏תיקיה חדשה\Library\libraryproject\Library.Servicrs\obj\Debug\net8.0\ref\Library.Servicrs.dll
+C:\Users\User\Desktop\Library\libraryproject\Library.Servicrs\bin\Debug\net8.0\Library.Servicrs.deps.json
+C:\Users\User\Desktop\Library\libraryproject\Library.Servicrs\bin\Debug\net8.0\Library.Servicrs.dll
+C:\Users\User\Desktop\Library\libraryproject\Library.Servicrs\bin\Debug\net8.0\Library.Servicrs.pdb
+C:\Users\User\Desktop\Library\libraryproject\Library.Servicrs\bin\Debug\net8.0\Library.Core.dll
+C:\Users\User\Desktop\Library\libraryproject\Library.Servicrs\bin\Debug\net8.0\Library.Core.pdb
+C:\Users\User\Desktop\Library\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library.Servicrs.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Library\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library.Servicrs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Library\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library.Servicrs.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Library\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library.Servicrs.AssemblyInfo.cs
+C:\Users\User\Desktop\Library\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library.Servicrs.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Library\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library.Servicrs.sourcelink.json
+C:\Users\User\Desktop\Library\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library..0D929DA2.Up2Date
+C:\Users\User\Desktop\Library\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library.Servicrs.dll
+C:\Users\User\Desktop\Library\libraryproject\Library.Servicrs\obj\Debug\net8.0\refint\Library.Servicrs.dll
+C:\Users\User\Desktop\Library\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library.Servicrs.pdb
+C:\Users\User\Desktop\Library\libraryproject\Library.Servicrs\obj\Debug\net8.0\ref\Library.Servicrs.dll

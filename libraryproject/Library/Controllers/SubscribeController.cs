@@ -1,45 +1,49 @@
-﻿using classLibraryCore.Interfaces;
-using Library.Modals;
+﻿using Library.Core.Interfaces;
+using Library.Core.Modals;
+using Library.Core.Services;
 using Microsoft.AspNetCore.Mvc;
 
 
-namespace Library.Controllers
+namespace Library.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class SubscribeController : ControllerBase
     {
-        private readonly IDataInteface _Data;
+        //private readonly IDataInteface _Data;
 
-        public SubscribeController(IDataInteface context)
+        //public SubscribeController(IDataInteface context)
+        //{
+        //    _Data = context;
+        //}
+
+        private readonly ISubscribeService _subscribeService;
+
+        public SubscribeController(ISubscribeService subscribe)
         {
-            _Data = context;
+            _subscribeService = subscribe;
         }
-
-       
 
         // שליפת רשימת מנויים
         [HttpGet]
         public IEnumerable<Subscribe> Get()
         {
-            return _Data.subscribers;
+            return _subscribeService.GetAllSubscribes();
         }
 
         // שליפת פרטי מנוי ע"פ שם או ת.ז
         [HttpGet("get")]
-        public Subscribe Get([FromQuery] string? id=null, [FromQuery] string? name = null)
+        public Subscribe Get([FromQuery] string? id = null, [FromQuery] string? name = null)
         {
-            if(id!=null)
-                return _Data.GetSubscribeFromListById(id);
-            return _Data.GetSubscribeFromListByName(name);
+            return _subscribeService.GetSubscribeByIdOrName(id, name);
         }
 
         // שליפת ת.ז ע"פ שם 
         [HttpGet("GetId")]
         public string Get([FromQuery] string Name)
         {
-                return _Data.GetSubscribeFromListByName(Name).Id;
-            
+            return _subscribeService.GetIdByName(Name);
+
         }
 
 
@@ -47,19 +51,7 @@ namespace Library.Controllers
         [HttpGet("filter")]
         public IEnumerable<Subscribe> Get([FromQuery] bool? IsActive = null, [FromQuery] int? NumOfBorrows = null, [FromQuery] int? age = null)
         {
-            List<Subscribe> SubscribeList = _Data.subscribers;
-            if (IsActive != null)
-                SubscribeList = SubscribeList.Where(Sub => Sub.IsActive == IsActive).ToList();
-
-            if (NumOfBorrows != null)
-                SubscribeList = SubscribeList.Where(Sub => Sub.NumOfBorrows > NumOfBorrows).ToList();
-
-            if (age != null)
-                SubscribeList = SubscribeList.Where(Sub => Sub.Age > age).ToList();
-
-            return SubscribeList;
-
-
+            return _subscribeService.GetFilterSubscribe(IsActive, NumOfBorrows, age);
         }
 
 
@@ -67,7 +59,7 @@ namespace Library.Controllers
         [HttpPost]
         public void Post([FromBody] Subscribe s)
         {
-            _Data.subscribers.Add(s);
+           _subscribeService.AddSubscribe(s);
         }
 
 
@@ -75,24 +67,14 @@ namespace Library.Controllers
         [HttpPut("{id}")]
         public void Put(string id, [FromBody] Subscribe s)
         {
-            Subscribe SubscribeForUpdate = _Data.subscribers.FirstOrDefault(s => s.Id == id);
-            if (SubscribeForUpdate != null)
-            {
-                SubscribeForUpdate.Address = s.Address;
-                SubscribeForUpdate.NumOfBorrows = s.NumOfBorrows;
-                SubscribeForUpdate.Phone = s.Phone;
-                SubscribeForUpdate.Name = s.Name;
-                SubscribeForUpdate.Age = s.Age;
-                SubscribeForUpdate.IsActive = s.IsActive;
-            }
-
+            _subscribeService.ChangeSubscribe(id, s);
         }
 
         // מחיקת מנוי לפי ת.ז
         [HttpDelete("{id}")]
         public void Delete(string id)
         {
-            _Data.subscribers.FirstOrDefault(o => o.Id == id).IsActive = false;
+            _subscribeService.DeleteSubscribe(id);
 
         }
     }
