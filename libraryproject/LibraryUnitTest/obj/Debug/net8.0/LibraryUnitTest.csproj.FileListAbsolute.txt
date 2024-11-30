@@ -224,3 +224,6 @@ E:\netCore\Library\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryUnitTe
 E:\netCore\Library\libraryproject\LibraryUnitTest\obj\Debug\net8.0\ref\LibraryUnitTest.dll
 E:\netCore\Library\libraryproject\LibraryUnitTest\bin\Debug\net8.0\classLibraryCore.dll
 E:\netCore\Library\libraryproject\LibraryUnitTest\bin\Debug\net8.0\classLibraryCore.pdb
+C:\Users\User\Desktop\Library.2\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryUnitTest.dll
+C:\Users\User\Desktop\Library.2\libraryproject\LibraryUnitTest\obj\Debug\net8.0\refint\LibraryUnitTest.dll
+C:\Users\User\Desktop\Library.2\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryUnitTest.pdb

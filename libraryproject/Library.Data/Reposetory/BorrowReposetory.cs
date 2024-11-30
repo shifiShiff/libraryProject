@@ -21,7 +21,7 @@ namespace Library.Data.Reposetory
         }
         public IEnumerable<Borrow> GetBorrowByStatus(bool Isreturn)
         {
-            return _context.borrows.Where(b => b.IsReturned == false).ToList();
+            return _context.borrows.Where(b => b.IsReturned == Isreturn).ToList();
         }
         public IEnumerable<Borrow> GetBorrowsByIdWithStatus(string Id, bool? Isreturn = null)
         {
@@ -55,32 +55,27 @@ namespace Library.Data.Reposetory
             }
         }
 
-        public void UpdateBorrow(int Code,Borrow b)
+        public void UpdateBorrow(int CodeBorrow,string IdSubscribe, int BookCode)
         {
-            Borrow MyBorrow = _context.borrows.FirstOrDefault(o => o.BorrowCode == Code);
-            //בדיקה האם יש כזה קוד השאלה
-            if (MyBorrow!= null)
+
+            Borrow MyBorrow = _context.borrows.FirstOrDefault(o => o.BorrowCode == CodeBorrow);
+            Book MyBook =_context.books.FirstOrDefault(b=>b.Code==BookCode);
+            Subscribe MySubscribe= _context.subscribers.FirstOrDefault(s=>s.Id==IdSubscribe);
+
+            if (MyBorrow!= null && MyBook!=null && MySubscribe!=null)
             {
-                //שינוי ספר ושחרור הספר הקודם
-                _context.books.FirstOrDefault(o => o.Name == b.BorrowBook.Name).IsBorrowing = true;
-                MyBorrow.BorrowBook.IsBorrowing = false;
+                if (MySubscribe.NumOfCurrentBorrowing < 3 && MyBook.IsBorrowing==false)
+                {
+                    MyBorrow.Subscriber.NumOfCurrentBorrowing--;
+                    MyBorrow.Subscriber.NumOfBorrows--;
+                    MySubscribe.NumOfCurrentBorrowing++;
+                    MySubscribe.NumOfBorrows++;
 
-                //שינוי מנוי ושחרור המנוי הקודם
-                _context.subscribers.FirstOrDefault(o => o.Id == b.Subscriber.Id).NumOfBorrows++;
-                _context.subscribers.FirstOrDefault(o => o.Id == b.Subscriber.Id).NumOfCurrentBorrowing++;
-
-                MyBorrow.Subscriber.NumOfBorrows--;
-                MyBorrow.Subscriber.NumOfCurrentBorrowing--;
-
-
-                MyBorrow.Subscriber = b.Subscriber;
-                MyBorrow.BorrowBook = b.BorrowBook;
-                MyBorrow.BorrowDate = b.BorrowDate;
-                MyBorrow.BackDate = b.BackDate;
-                MyBorrow.IsReturned = b.IsReturned;
-
-
+                    MyBorrow.Subscriber = MySubscribe;
+                    MyBorrow.BorrowBook = MyBook;
+                }
             }
+
 
         }
 

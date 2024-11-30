@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Bsrc4JkRliQ=",
+  "dgSpecHash": "4iTz2blecx4=",
   "success": false,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\Library\\libraryproject\\LibraryUnitTest\\LibraryUnitTest.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\Library.2\\libraryproject\\LibraryUnitTest\\LibraryUnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
@@ -104,8 +104,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\User\\Desktop\\Library\\libraryproject\\Library\\Library.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\User\\Desktop\\Library\\libraryproject\\Library\\Library.csproj",
+      "message": "Unable to find project 'C:\\Users\\User\\Desktop\\Library.2\\libraryproject\\Library\\Library.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\User\\Desktop\\Library.2\\libraryproject\\Library\\Library.csproj",
       "targetGraphs": [
         "net8.0"
       ]

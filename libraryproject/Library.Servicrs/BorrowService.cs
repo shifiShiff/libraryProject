@@ -34,9 +34,9 @@ namespace Library.Servicrs
         {
             _borrowReposetory.AddBorrow(Code, Id);
         }
-        public void UpdateBorrow(int Code, Borrow b)
+        public void UpdateBorrow(int CodeBorrow, string IdSubscribe, int BookCode)
         {
-            _borrowReposetory.UpdateBorrow(Code , b);
+            _borrowReposetory.UpdateBorrow(CodeBorrow,IdSubscribe,BookCode);
         }
         public void DeleteBorrow(int BorrowCode)
         {

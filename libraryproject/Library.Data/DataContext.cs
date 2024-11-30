@@ -18,11 +18,12 @@ namespace Library.Data
 
 
 
-        public List<Borrow> borrows { get; set; } = new List<Borrow>() { new Borrow(){BorrowDate=DateTime.Now,BackDate=DateTime.Now.AddDays(10),
-            BorrowBook=new Book(){ Name = "Nan", Category = Ecategory.teenage,Author="Frid", IsBorrowing = true,DateOfBuying=new DateTime(2022,1,3),NumOfPages=250 }
-            ,Subscriber=new Subscribe() {Id="214860728",Name="Shifi Shiff",Address="Yabrov 8",Phone="0527132865",IsActive=true,Age=8,NumOfBorrows=7 }} ,
+        public List<Borrow> borrows { get; set; } = new List<Borrow>(){
+         // new Borrow(){BorrowDate=DateTime.Now,BackDate=DateTime.Now.AddDays(10),
+        //    BorrowBook=new Book(){ Name = "Nan", Category = Ecategory.teenage,Author="Frid", IsBorrowing = true,DateOfBuying=new DateTime(2022,1,3),NumOfPages=250 }
+        //    ,Subscriber=new Subscribe() {Id="214860728",Name="Shifi Shiff",Address="Yabrov 8",Phone="0527132865",IsActive=true,Age=8,NumOfBorrows=7 }} ,
         
-        };
+       };
 
 
         public Book GetBookFromListByCode(int code)
