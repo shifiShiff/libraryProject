@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Library.2\\libraryproject\\classLibrary\\Library.Core.csproj": {}
+    "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\classLibrary\\Library.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Library.2\\libraryproject\\classLibrary\\Library.Core.csproj": {
+    "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\classLibrary\\Library.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Library.2\\libraryproject\\classLibrary\\Library.Core.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\classLibrary\\Library.Core.csproj",
         "projectName": "Library.Core",
-        "projectPath": "C:\\Users\\User\\Desktop\\Library.2\\libraryproject\\classLibrary\\Library.Core.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\classLibrary\\Library.Core.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Library.2\\libraryproject\\classLibrary\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\classLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

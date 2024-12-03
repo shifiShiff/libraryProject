@@ -38,17 +38,17 @@ namespace Library.Servicrs
             return _bookReposetory.GetFilterList(category, IsBorrowed);
         }
 
-        public void AddBook(Book b)
+        public bool AddBook(Book b)
         {
-            _bookReposetory.AddBook(b);
+            return _bookReposetory.AddBook(b);
         }
-        public void ChangeBook(int id,Book b)
+        public bool UpdateBook(int id,Book b)
         {
-            _bookReposetory.ChangeBook(id,b);
+            return _bookReposetory.UpdateBook(id,b);
         }
-        public void DeleteBook(int id)
+        public bool DeleteBook(int id)
         { 
-            _bookReposetory.DeleteBook(id);
+           return _bookReposetory.DeleteBook(id);
 
         }
 

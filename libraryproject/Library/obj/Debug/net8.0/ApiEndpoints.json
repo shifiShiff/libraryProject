@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Library.Core.Modals.Book, Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Library.Core.Modals.Book",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -35,8 +35,12 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 200
       }
     ]
@@ -62,8 +66,12 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 200
       }
     ]
@@ -100,8 +108,12 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 200
       }
     ]
@@ -120,17 +132,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Int32",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Library.Api.Controllers.BookController",
@@ -153,7 +155,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Library.Core.Modals.Book, Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Library.Core.Modals.Book",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -173,7 +175,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Library.Core.Modals.Borrow, Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Library.Core.Modals.Borrow",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -209,8 +211,12 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 200
       }
     ]
@@ -231,8 +237,12 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 200
       }
     ]
@@ -258,8 +268,12 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 200
       }
     ]
@@ -285,7 +299,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Library.Core.Modals.Borrow, Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Library.Core.Modals.Borrow",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -311,7 +325,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Library.Core.Modals.Borrow, Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Library.Core.Modals.Borrow",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -331,7 +345,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Library.Core.Modals.Subscribe, Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Library.Core.Modals.Subscribe",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -357,8 +371,12 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 200
       }
     ]
@@ -384,8 +402,12 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 200
       }
     ]
@@ -406,8 +428,12 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 200
       }
     ]
@@ -438,7 +464,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Library.Core.Modals.Subscribe, Library.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Library.Core.Modals.Subscribe",
         "MediaTypes": [
           "text/plain",
           "application/json",

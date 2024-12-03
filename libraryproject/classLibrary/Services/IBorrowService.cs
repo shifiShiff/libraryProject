@@ -12,8 +12,8 @@ namespace Library.Core.Services
         IEnumerable<Borrow> GetAllBorrows();
         IEnumerable<Borrow> GetBorrowByStatus(bool Isreturn);
         IEnumerable<Borrow> GetBorrowsByIdWithStatus(string Id, bool? Isreturn = null);
-        void AddBorrow(int Code, string Id);
-        void UpdateBorrow(int CodeBorrow, string IdSubscribe, int BookCode);
-        void DeleteBorrow(int BorrowCode);
+        bool AddBorrow(int Code, string Id);
+        bool UpdateBorrow(int CodeBorrow, string IdSubscribe, int BookCode);
+        bool DeleteBorrow(int BorrowCode);
     }
 }

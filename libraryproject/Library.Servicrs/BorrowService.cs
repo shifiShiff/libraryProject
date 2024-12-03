@@ -30,17 +30,17 @@ namespace Library.Servicrs
             return _borrowReposetory.GetBorrowsByIdWithStatus(Id,Isreturn);
         }
 
-        public void AddBorrow(int Code, string Id)
+        public bool AddBorrow(int Code, string Id)
         {
-            _borrowReposetory.AddBorrow(Code, Id);
+            return _borrowReposetory.AddBorrow(Code, Id);
         }
-        public void UpdateBorrow(int CodeBorrow, string IdSubscribe, int BookCode)
+        public bool UpdateBorrow(int CodeBorrow, string IdSubscribe, int BookCode)
         {
-            _borrowReposetory.UpdateBorrow(CodeBorrow,IdSubscribe,BookCode);
+            return _borrowReposetory.UpdateBorrow(CodeBorrow,IdSubscribe,BookCode);
         }
-        public void DeleteBorrow(int BorrowCode)
+        public bool DeleteBorrow(int BorrowCode)
         {
-            _borrowReposetory.DeleteBorrow(BorrowCode);
+             return _borrowReposetory.DeleteBorrow(BorrowCode);
         }
 
     }

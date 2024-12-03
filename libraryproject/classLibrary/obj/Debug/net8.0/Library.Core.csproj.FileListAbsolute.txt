@@ -34,3 +34,15 @@ C:\Users\User\Desktop\Library.2\libraryproject\classLibrary\obj\Debug\net8.0\Lib
 C:\Users\User\Desktop\Library.2\libraryproject\classLibrary\obj\Debug\net8.0\refint\Library.Core.dll
 C:\Users\User\Desktop\Library.2\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.pdb
 C:\Users\User\Desktop\Library.2\libraryproject\classLibrary\obj\Debug\net8.0\ref\Library.Core.dll
+C:\Users\User\Desktop\Library.3\libraryproject\classLibrary\bin\Debug\net8.0\Library.Core.deps.json
+C:\Users\User\Desktop\Library.3\libraryproject\classLibrary\bin\Debug\net8.0\Library.Core.dll
+C:\Users\User\Desktop\Library.3\libraryproject\classLibrary\bin\Debug\net8.0\Library.Core.pdb
+C:\Users\User\Desktop\Library.3\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Library.3\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Library.3\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.AssemblyInfo.cs
+C:\Users\User\Desktop\Library.3\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Library.3\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.sourcelink.json
+C:\Users\User\Desktop\Library.3\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.dll
+C:\Users\User\Desktop\Library.3\libraryproject\classLibrary\obj\Debug\net8.0\refint\Library.Core.dll
+C:\Users\User\Desktop\Library.3\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.pdb
+C:\Users\User\Desktop\Library.3\libraryproject\classLibrary\obj\Debug\net8.0\ref\Library.Core.dll

@@ -14,8 +14,8 @@ namespace Library.Core.Services
         int GetBookCodeByName(string book);
         Book GetBookById(int id);
         IEnumerable<Book> GetFilterList(Ecategory? category = null, bool? IsBorrowed = null);
-        void AddBook(Book b);
-        void ChangeBook(int id, Book b);
-        void DeleteBook(int id);
+        bool AddBook(Book b);
+        bool UpdateBook(int id, Book b);
+        bool DeleteBook(int id);
     }
 }

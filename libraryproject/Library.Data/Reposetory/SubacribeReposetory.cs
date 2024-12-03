@@ -46,11 +46,12 @@ namespace Library.Data.Reposetory
 
             return SubscribeList;
         }
-        public void AddSubscribe(Subscribe s)
+        public bool AddSubscribe(Subscribe s)
         {
             _context.subscribers.Add(s);
+            return true;
         }
-        public void ChangeSubscribe(string id, Subscribe s)
+        public bool UpdateSubscribe(string id, Subscribe s)
         {
             Subscribe SubscribeForUpdate = _context.subscribers.FirstOrDefault(s => s.Id == id);
             if (SubscribeForUpdate != null)
@@ -61,12 +62,18 @@ namespace Library.Data.Reposetory
                 SubscribeForUpdate.Name = s.Name;
                 SubscribeForUpdate.Age = s.Age;
                 SubscribeForUpdate.IsActive = s.IsActive;
+                return true;
             }
+            return false;
 
         }
-        public void DeleteSubscribe(string id)
+        public bool DeleteSubscribe(string id)
         {
-               _context.subscribers.FirstOrDefault(o => o.Id == id).IsActive = false;
+            Subscribe s = _context.subscribers.FirstOrDefault(o => o.Id == id);
+            if (s is null)
+                return false;
+            s.IsActive = false;
+            return true;
         }
     }
 }

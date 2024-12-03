@@ -37,18 +37,18 @@ namespace Library.Servicrs
         {
             return _subscribeReposetory.GetFilterSubscribe(IsActive, NumOfBorrows, age);
         }
-        public void AddSubscribe( Subscribe s)
+        public bool AddSubscribe( Subscribe s)
         {
-            _subscribeReposetory.AddSubscribe(s);
+            return _subscribeReposetory.AddSubscribe(s);
         }
-        public void ChangeSubscribe(string id,Subscribe s)
+        public bool UpdateSubscribe(string id,Subscribe s)
         {
-            _subscribeReposetory.ChangeSubscribe(id, s);
+            return _subscribeReposetory.UpdateSubscribe(id, s);
         }
 
-        public void DeleteSubscribe(string id)
+        public bool DeleteSubscribe(string id)
         {
-            _subscribeReposetory.DeleteSubscribe(id);
+           return _subscribeReposetory.DeleteSubscribe(id);
         }
     }
 }

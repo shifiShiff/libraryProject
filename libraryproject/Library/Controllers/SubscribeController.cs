@@ -26,55 +26,73 @@ namespace Library.Api.Controllers
 
         // שליפת רשימת מנויים
         [HttpGet]
-        public IEnumerable<Subscribe> Get()
+        public ActionResult<Subscribe> Get()
         {
-            return _subscribeService.GetAllSubscribes();
+            var list= _subscribeService.GetAllSubscribes();
+            if(list is null)
+                return NotFound("empty list");
+            return Ok(list);
         }
 
         // שליפת פרטי מנוי ע"פ שם או ת.ז
         [HttpGet("get")]
-        public Subscribe Get([FromQuery] string? id = null, [FromQuery] string? name = null)
+        public ActionResult<Subscribe> Get([FromQuery] string? id = null, [FromQuery] string? name = null)
         {
-            return _subscribeService.GetSubscribeByIdOrName(id, name);
+            var s=_subscribeService.GetSubscribeByIdOrName(id, name);
+            if (s is null)
+                return NotFound("failed");
+            return Ok(s);
         }
 
         // שליפת ת.ז ע"פ שם 
         [HttpGet("GetId")]
-        public string Get([FromQuery] string Name)
+        public ActionResult<string> Get([FromQuery] string Name)
         {
-            return _subscribeService.GetIdByName(Name);
+            var id= _subscribeService.GetIdByName(Name);
+            if (id == "-1")
+                return NotFound(id);
+            return Ok(id);
 
         }
 
 
         //סינון רשימת המנויים לפי פעילים /גיל/ מספר השאלות
         [HttpGet("filter")]
-        public IEnumerable<Subscribe> Get([FromQuery] bool? IsActive = null, [FromQuery] int? NumOfBorrows = null, [FromQuery] int? age = null)
+        public ActionResult<Subscribe> Get([FromQuery] bool? IsActive = null, [FromQuery] int? NumOfBorrows = null, [FromQuery] int? age = null)
         {
-            return _subscribeService.GetFilterSubscribe(IsActive, NumOfBorrows, age);
+            var list=_subscribeService.GetFilterSubscribe(IsActive, NumOfBorrows, age);
+            if (list is null)
+                return NotFound("empty list");
+            return Ok(list);
         }
 
 
         // הוספת מנוי חדש
         [HttpPost]
-        public void Post([FromBody] Subscribe s)
+        public ActionResult<bool> Post([FromBody] Subscribe s)
         {
-           _subscribeService.AddSubscribe(s);
+           if(_subscribeService.AddSubscribe(s))
+                return Ok(true);
+            return NotFound(false);
         }
 
 
         // שינוי פרטי מנוי ע"פ ת.ז
         [HttpPut("{id}")]
-        public void Put(string id, [FromBody] Subscribe s)
+        public ActionResult<bool> Put(string id, [FromBody] Subscribe s)
         {
-            _subscribeService.ChangeSubscribe(id, s);
+            if(_subscribeService.UpdateSubscribe(id, s))
+                return Ok(true) ;
+            return NotFound(false);
         }
 
         // מחיקת מנוי לפי ת.ז
         [HttpDelete("{id}")]
-        public void Delete(string id)
+        public ActionResult<bool> Delete(string id)
         {
-            _subscribeService.DeleteSubscribe(id);
+            if(_subscribeService.DeleteSubscribe(id))
+                return Ok(true);
+            return NotFound(false);
 
         }
     }

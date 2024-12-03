@@ -33,17 +33,23 @@ namespace Library.Api.Controllers
 
         //שליפת כל רשימת הספרים
         [HttpGet]
-        public IEnumerable<Book> Get()
+        public ActionResult<Book> Get()
         {
-            return _bookService.GetAllBooks();
+            var list = _bookService.GetAllBooks();
+            if(list is null)
+                return NotFound("empty list");
+            return Ok(list);
         }
 
 
         //שליפת קוד ספר ע"פ שם ספר (מחליף את סריקת הברקוד
         [HttpGet("BookName/{BookName}")]
-        public int Get(string BookName)
+        public ActionResult Get(string BookName)
         {
-           return _bookService.GetBookCodeByName(BookName);
+            var bookTmp = _bookService.GetBookCodeByName(BookName);
+            if(bookTmp==-1)
+               return NotFound(-1);
+           return Ok(bookTmp);
         }
 
 
@@ -53,41 +59,52 @@ namespace Library.Api.Controllers
         {
             var bookTmp = _bookService.GetBookById(bookCode);
             if (bookTmp is null)
-                return NotFound();
+                return NotFound("No such a book");
             return Ok(bookTmp);
         }
 
 
         //סינון רשימת ספרים לפי: קטגוריה/ לפי האם מושאל
         [HttpGet("filter")]
-        public IEnumerable<Book> Get([FromQuery] Ecategory? category = null, [FromQuery] bool? IsBorrowed = null)
+        public ActionResult<Book> Get([FromQuery] Ecategory? category = null, [FromQuery] bool? IsBorrowed = null)
         {
-            return _bookService.GetFilterList(category, IsBorrowed);
+            var b = _bookService.GetFilterList(category, IsBorrowed);
+            if (b != null)
+                return Ok(b);
+            return NotFound("Empty list");
         }
 
         // הוספת ספר חדש לרשימת הספרים
         [HttpPost]
-        public void Post([FromBody] Book b)
+        public ActionResult<bool> Post([FromBody] Book b)
         {
-            _bookService.AddBook(b);
+
+            if(_bookService.AddBook(b))
+                return Ok(true);
+            return Ok(false);
         }
 
 
 
         // עדכון ספר ע"פ קוד לפי ספר אחר שמתקבל
         [HttpPut()]
-        public void Put(int id, [FromBody] Book b)
+        public ActionResult<bool> Put(int id, [FromBody] Book b)
         {
 
-            _bookService.ChangeBook(id, b);
+            if(_bookService.UpdateBook(id, b))
+                return Ok(true);
+            return NotFound(false);
+           
         }
 
 
         // מחיקת ספר ע"פ קוד
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public ActionResult<bool> Delete(int id)
         {
-            _bookService.DeleteBook(id);
+            if(_bookService.DeleteBook(id))
+                return Ok(true);
+            return NotFound(false);
         }
     }
 }

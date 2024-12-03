@@ -26,48 +26,63 @@ namespace Library.Api.Controllers
 
         // שליפת רשימת השאלות
         [HttpGet]
-        public IEnumerable<Borrow> Get()
+        public ActionResult<Borrow> Get()
         {
-            return _borrowService.GetAllBorrows();
+            var list= _borrowService.GetAllBorrows();
+            if (list is null)
+                return NotFound("empty list");
+            return Ok(list);
         }
 
         // שליפת רשימת השאלות שלא הוחזרו
         [HttpGet("select")]
-        public IEnumerable<Borrow> Get([FromQuery] bool Isreturn)
+        public ActionResult<Borrow> Get([FromQuery] bool Isreturn)
         {
-           return _borrowService.GetBorrowByStatus(Isreturn);
+            var list=_borrowService.GetBorrowByStatus(Isreturn);
+            if (list is null)
+                return NotFound("empty list");
+            return Ok(list);
         }
 
         //שליפת השאלות לפי מנוי עם אופציה לשלוח האם השאלות שהוחזרו או לא
         [HttpGet("{Id}")]
-        public IEnumerable<Borrow> Get(string Id, [FromQuery] bool? Isreturn = null)
+        public ActionResult<Borrow> Get(string Id, [FromQuery] bool? Isreturn = null)
         {
-            return _borrowService.GetBorrowsByIdWithStatus(Id, Isreturn);
+            var list=_borrowService.GetBorrowsByIdWithStatus(Id, Isreturn);
+            if (list is null)
+                return NotFound("empty list");
+            return Ok(list);
         }
 
 
         //השאלת ספר לפי קוד ספר ות.ז של לקוח
         [HttpPost("{Code},{Id}")]
-        public void Post(int Code, string Id)
+        public ActionResult<bool> Post(int Code, string Id)
         {
 
-            _borrowService.AddBorrow(Code, Id);
+            if(_borrowService.AddBorrow(Code, Id))
+                return Ok(true);
+            return NotFound("failed");
         }
 
 
         //שינוי פרטי השאלה ע"פ קוד השאלה
         [HttpPut]
-        public void Put(int CodeBorrow, string IdSubscribe, int BookCode)
+        public ActionResult<bool> Put(int CodeBorrow, string IdSubscribe, int BookCode)
         {
-           _borrowService.UpdateBorrow(CodeBorrow, IdSubscribe, BookCode);    
+           if(_borrowService.UpdateBorrow(CodeBorrow, IdSubscribe, BookCode))
+                return Ok(true);
+            return NotFound("failed");
 
         }
 
         // החזרת השאלה ע"פ קוד השאלה
         [HttpDelete("{BorrowCode}")]
-        public void Delete(int BorrowCode)
+        public ActionResult<bool> Delete(int BorrowCode)
         {
-           _borrowService.DeleteBorrow(BorrowCode);
+           if(_borrowService.DeleteBorrow(BorrowCode))
+                return Ok(true);
+            return NotFound("failed");
 
         }
     }

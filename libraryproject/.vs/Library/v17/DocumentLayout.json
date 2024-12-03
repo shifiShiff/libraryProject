@@ -1,40 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Library.2\\libraryproject\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6C218FD-2BAA-43F4-BE70-BD89475B7A9F}|Library.Data\\Library.Data.csproj|c:\\users\\user\\desktop\\library.2\\libraryproject\\library.data\\reposetory\\borrowreposetory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6C218FD-2BAA-43F4-BE70-BD89475B7A9F}|Library.Data\\Library.Data.csproj|solutionrelative:library.data\\reposetory\\borrowreposetory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.Api.csproj|c:\\users\\user\\desktop\\library.3\\libraryproject\\library\\controllers\\subscribecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.Api.csproj|solutionrelative:library\\controllers\\subscribecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.Api.csproj|c:\\users\\user\\desktop\\library.2\\libraryproject\\library\\controllers\\borrowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3D7F2C9-1D6C-497C-B51A-41745E5DD841}|Library\\Library.Api.csproj|solutionrelative:library\\controllers\\borrowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5A9DCAA-6982-40C5-B7F3-043B6FD87785}|Library.Servicrs\\Library.Servicrs.csproj|c:\\users\\user\\desktop\\library.3\\libraryproject\\library.servicrs\\subscribeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A9DCAA-6982-40C5-B7F3-043B6FD87785}|Library.Servicrs\\Library.Servicrs.csproj|solutionrelative:library.servicrs\\subscribeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5A9DCAA-6982-40C5-B7F3-043B6FD87785}|Library.Servicrs\\Library.Servicrs.csproj|c:\\users\\user\\desktop\\library.2\\libraryproject\\library.servicrs\\borrowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5A9DCAA-6982-40C5-B7F3-043B6FD87785}|Library.Servicrs\\Library.Servicrs.csproj|solutionrelative:library.servicrs\\borrowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6C218FD-2BAA-43F4-BE70-BD89475B7A9F}|Library.Data\\Library.Data.csproj|c:\\users\\user\\desktop\\library.3\\libraryproject\\library.data\\reposetory\\subacribereposetory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C218FD-2BAA-43F4-BE70-BD89475B7A9F}|Library.Data\\Library.Data.csproj|solutionrelative:library.data\\reposetory\\subacribereposetory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC39639C-EF26-4A4A-8680-B9525AA7DFCC}|classLibrary\\Library.Core.csproj|c:\\users\\user\\desktop\\library.2\\libraryproject\\classlibrary\\modals\\borrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC39639C-EF26-4A4A-8680-B9525AA7DFCC}|classLibrary\\Library.Core.csproj|solutionrelative:classlibrary\\modals\\borrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC39639C-EF26-4A4A-8680-B9525AA7DFCC}|classLibrary\\Library.Core.csproj|c:\\users\\user\\desktop\\library.3\\libraryproject\\classlibrary\\reposetory\\isubscribereposetory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC39639C-EF26-4A4A-8680-B9525AA7DFCC}|classLibrary\\Library.Core.csproj|solutionrelative:classlibrary\\reposetory\\isubscribereposetory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC39639C-EF26-4A4A-8680-B9525AA7DFCC}|classLibrary\\Library.Core.csproj|c:\\users\\user\\desktop\\library.2\\libraryproject\\classlibrary\\services\\iborrowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC39639C-EF26-4A4A-8680-B9525AA7DFCC}|classLibrary\\Library.Core.csproj|solutionrelative:classlibrary\\services\\iborrowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC39639C-EF26-4A4A-8680-B9525AA7DFCC}|classLibrary\\Library.Core.csproj|c:\\users\\user\\desktop\\library.2\\libraryproject\\classlibrary\\reposetory\\iborrowreposetory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC39639C-EF26-4A4A-8680-B9525AA7DFCC}|classLibrary\\Library.Core.csproj|solutionrelative:classlibrary\\reposetory\\iborrowreposetory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6C218FD-2BAA-43F4-BE70-BD89475B7A9F}|Library.Data\\Library.Data.csproj|c:\\users\\user\\desktop\\library.2\\libraryproject\\library.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6C218FD-2BAA-43F4-BE70-BD89475B7A9F}|Library.Data\\Library.Data.csproj|solutionrelative:library.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Library\\libraryproject\\Library\\Controllers\\BorrowController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC39639C-EF26-4A4A-8680-B9525AA7DFCC}|classLibrary\\Library.Core.csproj|c:\\users\\user\\desktop\\library.3\\libraryproject\\classlibrary\\services\\isubscribeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC39639C-EF26-4A4A-8680-B9525AA7DFCC}|classLibrary\\Library.Core.csproj|solutionrelative:classlibrary\\services\\isubscribeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Library\\libraryproject\\Library\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C218FD-2BAA-43F4-BE70-BD89475B7A9F}|Library.Data\\Library.Data.csproj|c:\\users\\user\\desktop\\library.3\\libraryproject\\library.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C218FD-2BAA-43F4-BE70-BD89475B7A9F}|Library.Data\\Library.Data.csproj|solutionrelative:library.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,121 +37,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IBorrowService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Library.2\\libraryproject\\classLibrary\\Services\\IBorrowService.cs",
-              "RelativeDocumentMoniker": "classLibrary\\Services\\IBorrowService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Library.2\\libraryproject\\classLibrary\\Services\\IBorrowService.cs",
-              "RelativeToolTip": "classLibrary\\Services\\IBorrowService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABKAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ISubscribeReposetory.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\classLibrary\\Reposetory\\ISubscribeReposetory.cs",
+              "RelativeDocumentMoniker": "classLibrary\\Reposetory\\ISubscribeReposetory.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\classLibrary\\Reposetory\\ISubscribeReposetory.cs",
+              "RelativeToolTip": "classLibrary\\Reposetory\\ISubscribeReposetory.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T16:50:46.56Z",
+              "WhenOpened": "2024-12-03T19:04:55.305Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IBorrowReposetory.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Library.2\\libraryproject\\classLibrary\\Reposetory\\IBorrowReposetory.cs",
-              "RelativeDocumentMoniker": "classLibrary\\Reposetory\\IBorrowReposetory.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Library.2\\libraryproject\\classLibrary\\Reposetory\\IBorrowReposetory.cs",
-              "RelativeToolTip": "classLibrary\\Reposetory\\IBorrowReposetory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABKAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ISubscribeService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\classLibrary\\Services\\ISubscribeService.cs",
+              "RelativeDocumentMoniker": "classLibrary\\Services\\ISubscribeService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\classLibrary\\Services\\ISubscribeService.cs",
+              "RelativeToolTip": "classLibrary\\Services\\ISubscribeService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBAAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T16:50:16.265Z",
+              "WhenOpened": "2024-12-03T19:04:39.979Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BorrowController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Library.2\\libraryproject\\Library\\Controllers\\BorrowController.cs",
-              "RelativeDocumentMoniker": "Library\\Controllers\\BorrowController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Library.2\\libraryproject\\Library\\Controllers\\BorrowController.cs",
-              "RelativeToolTip": "Library\\Controllers\\BorrowController.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAkwDoAAAAQAAAAAAAAAA==",
+              "Title": "SubscribeService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\Library.Servicrs\\SubscribeService.cs",
+              "RelativeDocumentMoniker": "Library.Servicrs\\SubscribeService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\Library.Servicrs\\SubscribeService.cs",
+              "RelativeToolTip": "Library.Servicrs\\SubscribeService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwDIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T16:25:24.649Z",
+              "WhenOpened": "2024-12-03T19:05:16.944Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Library\\libraryproject\\Library\\Program.cs",
-              "RelativeDocumentMoniker": "..\\..\\Library\\libraryproject\\Library\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Library\\libraryproject\\Library\\Program.cs",
-              "RelativeToolTip": "..\\..\\Library\\libraryproject\\Library\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:09:40.746Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BorrowService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Library.2\\libraryproject\\Library.Servicrs\\BorrowService.cs",
-              "RelativeDocumentMoniker": "Library.Servicrs\\BorrowService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Library.2\\libraryproject\\Library.Servicrs\\BorrowService.cs",
-              "RelativeToolTip": "Library.Servicrs\\BorrowService.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAUwCQAAABRAAAAAAAAAA==",
+              "Title": "SubacribeReposetory.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\Library.Data\\Reposetory\\SubacribeReposetory.cs",
+              "RelativeDocumentMoniker": "Library.Data\\Reposetory\\SubacribeReposetory.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\Library.Data\\Reposetory\\SubacribeReposetory.cs",
+              "RelativeToolTip": "Library.Data\\Reposetory\\SubacribeReposetory.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAuwEoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T20:21:23.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Borrow.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Library.2\\libraryproject\\classLibrary\\Modals\\Borrow.cs",
-              "RelativeDocumentMoniker": "classLibrary\\Modals\\Borrow.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Library.2\\libraryproject\\classLibrary\\Modals\\Borrow.cs",
-              "RelativeToolTip": "classLibrary\\Modals\\Borrow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T16:32:54.189Z",
+              "WhenOpened": "2024-12-03T19:05:03.807Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BorrowReposetory.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Library.2\\libraryproject\\Library.Data\\Reposetory\\BorrowReposetory.cs",
-              "RelativeDocumentMoniker": "Library.Data\\Reposetory\\BorrowReposetory.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Library.2\\libraryproject\\Library.Data\\Reposetory\\BorrowReposetory.cs",
-              "RelativeToolTip": "Library.Data\\Reposetory\\BorrowReposetory.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAkwEAAAAAAAAAAAAAAAA==",
+              "Title": "SubscribeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\Library\\Controllers\\SubscribeController.cs",
+              "RelativeDocumentMoniker": "Library\\Controllers\\SubscribeController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\Library\\Controllers\\SubscribeController.cs",
+              "RelativeToolTip": "Library\\Controllers\\SubscribeController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T20:21:17.115Z",
+              "WhenOpened": "2024-12-03T19:04:42.835Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Library\\libraryproject\\Library\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\Library\\libraryproject\\Library\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Library\\libraryproject\\Library\\Program.cs",
+              "RelativeToolTip": "..\\..\\Library\\libraryproject\\Library\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T15:09:40.746Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Library.2\\libraryproject\\Library.Data\\DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\Library.Data\\DataContext.cs",
               "RelativeDocumentMoniker": "Library.Data\\DataContext.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Library.2\\libraryproject\\Library.Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\Library.Data\\DataContext.cs",
               "RelativeToolTip": "Library.Data\\DataContext.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T21:19:30.416Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BorrowController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Library\\libraryproject\\Library\\Controllers\\BorrowController.cs",
-              "RelativeDocumentMoniker": "..\\..\\Library\\libraryproject\\Library\\Controllers\\BorrowController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Library\\libraryproject\\Library\\Controllers\\BorrowController.cs",
-              "RelativeToolTip": "..\\..\\Library\\libraryproject\\Library\\Controllers\\BorrowController.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T20:20:56.423Z"
             }
           ]
         }

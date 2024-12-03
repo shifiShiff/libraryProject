@@ -13,9 +13,9 @@ namespace Library.Core.Services
         Subscribe GetSubscribeByIdOrName(string? id = null, string? name = null);
         string GetIdByName(string Name);
         IEnumerable<Subscribe> GetFilterSubscribe(bool? IsActive = null, int? NumOfBorrows = null, int? age = null);
-        void AddSubscribe(Subscribe s);
-        void ChangeSubscribe(string id, Subscribe s);
-        void DeleteSubscribe(string id);
+        bool AddSubscribe(Subscribe s);
+        bool UpdateSubscribe(string id, Subscribe s);
+        bool DeleteSubscribe(string id);
 
     }
 }
