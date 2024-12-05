@@ -15,40 +15,37 @@ namespace Library.Data.Reposetory
         }
         public List<Book> GetAllBooks()
         {
-            return _Contex.books;
+            return _Contex.books.ToList();
         }
 
-        public int GetBookCodeByName(string book)
+        public Book GetBookCodeByName(string book)
         {
-            Book mybook = _Contex.books.FirstOrDefault(b => b.Name == book);
-            if (mybook != null)
-                return mybook.Code;
-            return -1;
+           return _Contex.books.FirstOrDefault(b => b.Name == book);
+            
         }
 
         public Book GetBookById(int id)
         {
-            Book mybook = _Contex.books.FirstOrDefault(book => book.Code == id);
-            if (mybook != null)
-                return mybook;
-            return null;
+            return _Contex.books.FirstOrDefault(book => book.Code == id);
+           
 
         }
-        public IEnumerable<Book> GetFilterList(Ecategory? category = null, bool? IsBorrowed = null)
-        {
-            List<Book> BooksList = _Contex.books;
-            if (category != null)
-                BooksList = BooksList.Where(book => book.Category == category).ToList();
+        //public IEnumerable<Book> GetFilterList(Ecategory? category = null, bool? IsBorrowed = null)
+        //{
+        //    List<Book> BooksList = _Contex.books.ToList();
+        //    if (category != null)
+        //        BooksList = BooksList.Where(book => book.Category == category).ToList();
 
-            if (IsBorrowed != null)
-                BooksList = BooksList.Where(book => book.IsBorrowing == IsBorrowed).ToList();
+        //    if (IsBorrowed != null)
+        //        BooksList = BooksList.Where(book => book.IsBorrowing == IsBorrowed).ToList();
 
-            return BooksList;
-        }
+        //    return BooksList;
+        //}
 
         public bool AddBook(Book b)
         {
             _Contex.books.Add(b);
+            _Contex.SaveChanges();
             return true;
         }
         public bool UpdateBook(int id, Book b)
@@ -63,6 +60,7 @@ namespace Library.Data.Reposetory
                 bookToUpdate.DateOfBuying = b.DateOfBuying;
                 bookToUpdate.NumOfPages = b.NumOfPages;
                 bookToUpdate.Category = b.Category;
+                _Contex.SaveChanges();
                 return true;
             }
             return false;
@@ -70,10 +68,11 @@ namespace Library.Data.Reposetory
 
         public bool DeleteBook(int id)
         {
-            Book b = _Contex.books.FirstOrDefault(b => b.Code == id);
+            var b = _Contex.books.FirstOrDefault(b => b.Code == id);
             if (b != null)
             {
                 _Contex.books.Remove(b);
+                _Contex.SaveChanges();
                 return true;
             }
             return false;

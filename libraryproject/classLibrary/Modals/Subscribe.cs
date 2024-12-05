@@ -1,7 +1,11 @@
-﻿namespace Library.Core.Modals
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Library.Core.Modals
 {
     public class Subscribe
     {
+        [Key]
+        public int SubscribeId { get; set; }
         public string Id { get; set; }
         public string Name { get; set; }
         public int Age { get; set; }

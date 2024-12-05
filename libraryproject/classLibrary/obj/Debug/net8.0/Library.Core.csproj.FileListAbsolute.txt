@@ -46,3 +46,27 @@ C:\Users\User\Desktop\Library.3\libraryproject\classLibrary\obj\Debug\net8.0\Lib
 C:\Users\User\Desktop\Library.3\libraryproject\classLibrary\obj\Debug\net8.0\refint\Library.Core.dll
 C:\Users\User\Desktop\Library.3\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.pdb
 C:\Users\User\Desktop\Library.3\libraryproject\classLibrary\obj\Debug\net8.0\ref\Library.Core.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\classLibrary\bin\Debug\net8.0\Library.Core.deps.json
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\classLibrary\bin\Debug\net8.0\Library.Core.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\classLibrary\bin\Debug\net8.0\Library.Core.pdb
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.GeneratedMSBuildEditorConfig.editorconfig
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.AssemblyInfoInputs.cache
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.AssemblyInfo.cs
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.csproj.CoreCompileInputs.cache
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.sourcelink.json
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\classLibrary\obj\Debug\net8.0\refint\Library.Core.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.pdb
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\classLibrary\obj\Debug\net8.0\ref\Library.Core.dll
+F:\netCore\Library.5\libraryproject\classLibrary\bin\Debug\net8.0\Library.Core.deps.json
+F:\netCore\Library.5\libraryproject\classLibrary\bin\Debug\net8.0\Library.Core.dll
+F:\netCore\Library.5\libraryproject\classLibrary\bin\Debug\net8.0\Library.Core.pdb
+F:\netCore\Library.5\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\netCore\Library.5\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.AssemblyInfoInputs.cache
+F:\netCore\Library.5\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.AssemblyInfo.cs
+F:\netCore\Library.5\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.csproj.CoreCompileInputs.cache
+F:\netCore\Library.5\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.sourcelink.json
+F:\netCore\Library.5\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.dll
+F:\netCore\Library.5\libraryproject\classLibrary\obj\Debug\net8.0\refint\Library.Core.dll
+F:\netCore\Library.5\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.pdb
+F:\netCore\Library.5\libraryproject\classLibrary\obj\Debug\net8.0\ref\Library.Core.dll

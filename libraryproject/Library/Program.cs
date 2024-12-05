@@ -20,13 +20,16 @@ builder.Services.AddScoped<ISubscribeService, SubscribeService>();
 builder.Services.AddScoped<ISubscribeReposetory, SubacribeReposetory>();
 builder.Services.AddScoped<IBorrowService, BorrowService>();
 builder.Services.AddScoped<IBorrowReposetory, BorrowReposetory>();
+builder.Services.AddDbContext<DataContext>();
+
 //builder.Services.AddSingleton<DataContex>();
 //builder.Services.AddScoped<DataContext>();
-builder.Services.AddSingleton<DataContext>(provider =>
-{
-    var context = new DataContext();
-    return context;
-});
+
+//builder.Services.AddSingleton<DataContext>(provider =>
+//{
+//    var context = new DataContext();
+//    return context;
+//});
 
 
 

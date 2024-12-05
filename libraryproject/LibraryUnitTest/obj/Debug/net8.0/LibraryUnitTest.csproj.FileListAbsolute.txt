@@ -227,3 +227,203 @@ E:\netCore\Library\libraryproject\LibraryUnitTest\bin\Debug\net8.0\classLibraryC
 C:\Users\User\Desktop\Library.2\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryUnitTest.dll
 C:\Users\User\Desktop\Library.2\libraryproject\LibraryUnitTest\obj\Debug\net8.0\refint\LibraryUnitTest.dll
 C:\Users\User\Desktop\Library.2\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryUnitTest.pdb
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryUnitTest.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\obj\Debug\net8.0\refint\LibraryUnitTest.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryUnitTest.pdb
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryUnitTest.csproj.AssemblyReference.cache
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryUnitTest.GeneratedMSBuildEditorConfig.editorconfig
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryUnitTest.AssemblyInfoInputs.cache
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryUnitTest.AssemblyInfo.cs
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryUnitTest.csproj.CoreCompileInputs.cache
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryUnitTest.sourcelink.json
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\testhost.exe
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\testhost.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\xunit.runner.reporters.netcoreapp10.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\xunit.runner.utility.netcoreapp10.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\LibraryUnitTest.deps.json
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\LibraryUnitTest.runtimeconfig.json
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\LibraryUnitTest.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\LibraryUnitTest.pdb
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.CoreUtilities.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.Utilities.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\Newtonsoft.Json.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\NuGet.Frameworks.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\xunit.abstractions.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\xunit.assert.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\xunit.core.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\xunit.execution.dotnet.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryU.DEF16768.Up2Date
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryUnitTest.genruntimeconfig.cache
+Y:\Groups\Group_1\שיף שפרה רחל\netCore\Library.4\libraryproject\LibraryUnitTest\obj\Debug\net8.0\ref\LibraryUnitTest.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\testhost.exe
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\testhost.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\xunit.runner.reporters.netcoreapp10.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\xunit.runner.utility.netcoreapp10.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\LibraryUnitTest.deps.json
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\LibraryUnitTest.runtimeconfig.json
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\LibraryUnitTest.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\LibraryUnitTest.pdb
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.CoreUtilities.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.Utilities.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\Newtonsoft.Json.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\NuGet.Frameworks.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\xunit.abstractions.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\xunit.assert.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\xunit.core.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\xunit.execution.dotnet.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryUnitTest.csproj.AssemblyReference.cache
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryUnitTest.GeneratedMSBuildEditorConfig.editorconfig
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryUnitTest.AssemblyInfoInputs.cache
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryUnitTest.AssemblyInfo.cs
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryUnitTest.csproj.CoreCompileInputs.cache
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryUnitTest.sourcelink.json
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryU.DEF16768.Up2Date
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryUnitTest.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\obj\Debug\net8.0\refint\LibraryUnitTest.dll
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryUnitTest.pdb
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\obj\Debug\net8.0\LibraryUnitTest.genruntimeconfig.cache
+F:\netCore\Library.5\libraryproject\LibraryUnitTest\obj\Debug\net8.0\ref\LibraryUnitTest.dll

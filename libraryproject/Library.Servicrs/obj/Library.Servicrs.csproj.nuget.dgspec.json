@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\Library.Servicrs\\Library.Servicrs.csproj": {}
+    "F:\\netCore\\Library.5\\libraryproject\\Library.Servicrs\\Library.Servicrs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\classLibrary\\Library.Core.csproj": {
+    "F:\\netCore\\Library.5\\libraryproject\\classLibrary\\Library.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\classLibrary\\Library.Core.csproj",
+        "projectUniqueName": "F:\\netCore\\Library.5\\libraryproject\\classLibrary\\Library.Core.csproj",
         "projectName": "Library.Core",
-        "projectPath": "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\classLibrary\\Library.Core.csproj",
+        "projectPath": "F:\\netCore\\Library.5\\libraryproject\\classLibrary\\Library.Core.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\classLibrary\\obj\\",
+        "outputPath": "F:\\netCore\\Library.5\\libraryproject\\classLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\Library.Servicrs\\Library.Servicrs.csproj": {
+    "F:\\netCore\\Library.5\\libraryproject\\Library.Servicrs\\Library.Servicrs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\Library.Servicrs\\Library.Servicrs.csproj",
+        "projectUniqueName": "F:\\netCore\\Library.5\\libraryproject\\Library.Servicrs\\Library.Servicrs.csproj",
         "projectName": "Library.Servicrs",
-        "projectPath": "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\Library.Servicrs\\Library.Servicrs.csproj",
+        "projectPath": "F:\\netCore\\Library.5\\libraryproject\\Library.Servicrs\\Library.Servicrs.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\Library.Servicrs\\obj\\",
+        "outputPath": "F:\\netCore\\Library.5\\libraryproject\\Library.Servicrs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,8 +98,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\classLibrary\\Library.Core.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Library.3\\libraryproject\\classLibrary\\Library.Core.csproj"
+              "F:\\netCore\\Library.5\\libraryproject\\classLibrary\\Library.Core.csproj": {
+                "projectPath": "F:\\netCore\\Library.5\\libraryproject\\classLibrary\\Library.Core.csproj"
               }
             }
           }

@@ -25,30 +25,48 @@ namespace Library.Servicrs
 
         public Subscribe GetSubscribeByIdOrName(string? id = null, string? name = null)
         {
-            return _subscribeReposetory.GetSubscribeByIdOrName(id, name);
+            if (id != null)
+                return _subscribeReposetory.GetSubscribeByIdOrName(id);
+            return _subscribeReposetory.GetSubscribeByIdOrName(name);
         }
 
         public string GetIdByName(string Name)
         {
-            return _subscribeReposetory.GetIdByName(Name);
+            var s = _subscribeReposetory.GetIdByName(Name);
+            if (s != null)
+                return s.Id;
+            return "-1";
+        
         }
 
         public IEnumerable<Subscribe> GetFilterSubscribe(bool? IsActive = null, int? NumOfBorrows = null, int? age = null)
         {
-            return _subscribeReposetory.GetFilterSubscribe(IsActive, NumOfBorrows, age);
+            var SubscribeList = _subscribeReposetory.GetAllSubscribes();
+
+            if (IsActive != null)
+                SubscribeList = SubscribeList.Where(Sub => Sub.IsActive == IsActive).ToList();
+
+            if (NumOfBorrows != null)
+                SubscribeList = SubscribeList.Where(Sub => Sub.NumOfBorrows > NumOfBorrows).ToList();
+
+            if (age != null)
+                SubscribeList = SubscribeList.Where(Sub => Sub.Age > age).ToList();
+
+            return SubscribeList;
         }
         public bool AddSubscribe( Subscribe s)
         {
             return _subscribeReposetory.AddSubscribe(s);
         }
-        public bool UpdateSubscribe(string id,Subscribe s)
+        public bool UpdateSubscribe(string id, Subscribe s)
         {
             return _subscribeReposetory.UpdateSubscribe(id, s);
+
         }
 
         public bool DeleteSubscribe(string id)
         {
-           return _subscribeReposetory.DeleteSubscribe(id);
+            return _subscribeReposetory.DeleteSubscribe(id);
         }
     }
 }

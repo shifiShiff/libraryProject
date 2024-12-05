@@ -1,9 +1,13 @@
-﻿namespace Library.Core.Modals
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Library.Core.Modals
 {
     public class Borrow
     {
         public static int CodeB = 1;
-        public int BorrowCode { get; } = CodeB++;
+
+        [Key]
+        public int BorrowCode { get; set; } = CodeB++;
         public DateTime BorrowDate { get; set; }
         public DateTime BackDate { get; set; }
         public Subscribe Subscriber { get; set; }

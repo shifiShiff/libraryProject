@@ -1,11 +1,11 @@
-using Library.Api.Controllers;
-using Library.Core.Modals;
-using Library.Core.Interfaces;
-using Microsoft.AspNetCore.Mvc;
+//using Library.Api.Controllers;
+//using Library.Core.Modals;
+//using Library.Core.Interfaces;
+//using Microsoft.AspNetCore.Mvc;
 
-namespace LibraryUnitTest
-{
-    //public class UnitTest1
+//namespace LibraryUnitTest
+//{
+//    //public class UnitTest1
     //{
     //    [Fact]
     //    public void Book_Get()
@@ -59,4 +59,4 @@ namespace LibraryUnitTest
     //    }
 
     //}
-}
+//}

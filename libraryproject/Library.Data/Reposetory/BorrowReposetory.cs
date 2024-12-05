@@ -17,84 +17,83 @@ namespace Library.Data.Reposetory
         }
         public IEnumerable<Borrow> GetAllBorrows()
         {
-            return _context.borrows;
+            return _context.borrows.ToList();
         }
         public IEnumerable<Borrow> GetBorrowByStatus(bool Isreturn)
         {
             return _context.borrows.Where(b => b.IsReturned == Isreturn).ToList();
         }
-        public IEnumerable<Borrow> GetBorrowsByIdWithStatus(string Id, bool? Isreturn = null)
+        //public IEnumerable<Borrow> GetBorrowsByIdWithStatus(string Id, bool? Isreturn = null)
+        //{
+        //    return  _context.borrows.ToList() ;
+
+        //}
+        public Subscribe getSubscribeById(string id)
         {
-            List<Borrow> SelectBorrows = _context.borrows;
-            SelectBorrows = SelectBorrows.Where(m => m.Subscriber.Id == Id).ToList();
-            if (SelectBorrows != null && Isreturn != null)
-                SelectBorrows = SelectBorrows.Where(m => m.IsReturned == Isreturn).ToList();
-            return SelectBorrows;
+            return _context.subscribers.FirstOrDefault(o => o.Id == id);
         }
-
-        public bool AddBorrow(int Code, string Id)
+        public Book getBookById(int Code)
         {
-            if (_context.subscribers.FirstOrDefault(o => o.Id == Id) != null
-                && _context.books.FirstOrDefault(o => o.Code == Code) != null)
-            {
-                if (_context.books.FirstOrDefault(o => o.Code == Code).IsBorrowing == false)
-                {
-                    if (_context.GetSubscribeFromListById(Id).NumOfCurrentBorrowing < 3)
-                    {
-                        _context.GetBookFromListByCode(Code).IsBorrowing = true;
-                        _context.GetSubscribeFromListById(Id).NumOfBorrows++;
-                        _context.GetSubscribeFromListById(Id).NumOfCurrentBorrowing++;
-
-                        Borrow borrow = new Borrow();
-                        borrow.BorrowBook = _context.GetBookFromListByCode(Code);
-                        borrow.Subscriber = _context.GetSubscribeFromListById(Id);
-                        borrow.BorrowDate = DateTime.Now;
-                        borrow.BackDate = DateTime.Now.AddDays(10);
-                        borrow.IsReturned = false;
-                        _context.borrows.Add(borrow);
-                        return true;
-                    }
-                }
-            }
-            return false;
+            return _context.books.FirstOrDefault(o => o.Code == Code);
         }
-
-        public bool UpdateBorrow(int CodeBorrow, string IdSubscribe, int BookCode)
+        public Borrow getBorrowById(int Code)
         {
+            return _context.borrows.FirstOrDefault(o => o.BorrowCode == Code);
+        }
+        public void AddBorrow(Borrow borrow)
+        {
+            //if (_context.subscribers.FirstOrDefault(o => o.Id == Id) != null
+            //    && _context.books.FirstOrDefault(o => o.Code == Code) != null)
+            //{
+            //    if (_context.books.FirstOrDefault(o => o.Code == Code).IsBorrowing == false)
+            //    {
+            //        if (_context.subscribers.FirstOrDefault(s => s.Name == Id).NumOfCurrentBorrowing < 3)
+            //        {
+            //            _context.books.FirstOrDefault(b => b.Code == Code).IsBorrowing = true;
+            //            _context.subscribers.FirstOrDefault(s => s.Name == Id).NumOfBorrows++;
+            //            _context.subscribers.FirstOrDefault(s => s.Name == Id).NumOfCurrentBorrowing++;
 
-            Borrow MyBorrow = _context.borrows.FirstOrDefault(o => o.BorrowCode == CodeBorrow);
-            Book MyBook = _context.books.FirstOrDefault(b => b.Code == BookCode);
-            Subscribe MySubscribe = _context.subscribers.FirstOrDefault(s => s.Id == IdSubscribe);
+            //            Borrow borrow = new Borrow();
+            //            borrow.BorrowBook = _context.books.FirstOrDefault(b => b.Code == Code);
+            //            borrow.Subscriber = _context.subscribers.FirstOrDefault(s => s.Name == Id);
+            //            borrow.BorrowDate = DateTime.Now;
+            //            borrow.BackDate = DateTime.Now.AddDays(10);
+            //            borrow.IsReturned = false;
+            //            _context.borrows.Add(borrow);
+            //            return true;
+            //        }
+            //    }
+            //}
+            //return false;
 
-            if (MyBorrow != null && MyBook != null && MySubscribe != null)
-            {
-                if (MySubscribe.NumOfCurrentBorrowing < 3 && MyBook.IsBorrowing == false)
-                {
-                    MyBorrow.Subscriber.NumOfCurrentBorrowing--;
-                    MyBorrow.Subscriber.NumOfBorrows--;
-                    MySubscribe.NumOfCurrentBorrowing++;
-                    MySubscribe.NumOfBorrows++;
 
-                    MyBorrow.Subscriber = MySubscribe;
-                    MyBorrow.BorrowBook = MyBook;
-                    return true;
-                }
-            }
-            return false;
+            _context.borrows.Add(borrow);
+            _context.SaveChanges();
+
 
         }
 
-        public bool DeleteBorrow(int BorrowCode)
+        public void UpdateBorrow(Borrow MyBorrow, Book MyBook, Subscribe MySubscribe)
         {
-            Borrow MyBorrow = _context.borrows.FirstOrDefault(b => b.BorrowCode == BorrowCode);
-            if (MyBorrow != null && MyBorrow.IsReturned == false)
-            {
-                MyBorrow.BorrowBook.IsBorrowing = false;
-                MyBorrow.Subscriber.NumOfCurrentBorrowing--;
-                MyBorrow.IsReturned = true;
-                return true;
-            }
-            return false;
+            MyBorrow.Subscriber.NumOfCurrentBorrowing--;
+            MyBorrow.Subscriber.NumOfBorrows--;
+            MySubscribe.NumOfCurrentBorrowing++;
+            MySubscribe.NumOfBorrows++;
+
+            MyBorrow.Subscriber = MySubscribe;
+            MyBorrow.BorrowBook = MyBook;
+            _context.SaveChanges();
+
+        }
+
+        public void DeleteBorrow(Borrow MyBorrow)
+        {
+
+            MyBorrow.BorrowBook.IsBorrowing = false;
+            MyBorrow.Subscriber.NumOfCurrentBorrowing--;
+            MyBorrow.IsReturned = true;
+            _context.SaveChanges();
+
         }
     }
 }

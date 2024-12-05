@@ -17,43 +17,31 @@ namespace Library.Data.Reposetory
         }
         public IEnumerable<Subscribe> GetAllSubscribes()
         {
-            return _context.subscribers;
+            return _context.subscribers.ToList();
         }
-        public Subscribe GetSubscribeByIdOrName(string? id = null, string? name = null)
+        public Subscribe GetSubscribeByIdOrName(string? idOrName= null)
+        {  
+                return _context.subscribers.FirstOrDefault(s => s.Id == idOrName);
+        }
+        public Subscribe GetIdByName(string Name)
         {
-            if (id != null)
-                return _context.subscribers.FirstOrDefault(s => s.Id == id);
-            return _context.subscribers.FirstOrDefault(s => s.Name == name);
+            return _context.subscribers.FirstOrDefault(s => s.Name == Name);
+            
         }
-        public string GetIdByName(string Name)
-        {
-            Subscribe s = _context.subscribers.FirstOrDefault(s => s.Name == Name);
-            if (s != null)
-                return s.Id;
-            return "-1";
-        }
-        public IEnumerable<Subscribe> GetFilterSubscribe(bool? IsActive = null, int? NumOfBorrows = null, int? age = null)
-        {
-            List<Subscribe> SubscribeList = _context.subscribers;
-            if (IsActive != null)
-                SubscribeList = SubscribeList.Where(Sub => Sub.IsActive == IsActive).ToList();
-
-            if (NumOfBorrows != null)
-                SubscribeList = SubscribeList.Where(Sub => Sub.NumOfBorrows > NumOfBorrows).ToList();
-
-            if (age != null)
-                SubscribeList = SubscribeList.Where(Sub => Sub.Age > age).ToList();
-
-            return SubscribeList;
-        }
+        //public IEnumerable<Subscribe> GetFilterSubscribe()
+        //{
+        //   return  _context.subscribers.ToList();
+           
+        //}
         public bool AddSubscribe(Subscribe s)
         {
             _context.subscribers.Add(s);
+            _context.SaveChanges();
             return true;
         }
         public bool UpdateSubscribe(string id, Subscribe s)
         {
-            Subscribe SubscribeForUpdate = _context.subscribers.FirstOrDefault(s => s.Id == id);
+            var SubscribeForUpdate= _context.subscribers.FirstOrDefault(s => s.Id == id);
             if (SubscribeForUpdate != null)
             {
                 SubscribeForUpdate.Address = s.Address;
@@ -62,18 +50,25 @@ namespace Library.Data.Reposetory
                 SubscribeForUpdate.Name = s.Name;
                 SubscribeForUpdate.Age = s.Age;
                 SubscribeForUpdate.IsActive = s.IsActive;
+                _context.SaveChanges();
+
                 return true;
             }
             return false;
-
         }
+
+
+    
         public bool DeleteSubscribe(string id)
         {
-            Subscribe s = _context.subscribers.FirstOrDefault(o => o.Id == id);
+            var s = _context.subscribers.FirstOrDefault(o => o.Id == id);
             if (s is null)
                 return false;
             s.IsActive = false;
+            _context.SaveChanges();
             return true;
+            
+            
         }
     }
 }

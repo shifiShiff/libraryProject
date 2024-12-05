@@ -9,13 +9,13 @@ using System.Threading.Tasks;
 
 namespace Library.Servicrs
 {
-    public class BookService:IBookService
+    public class BookService : IBookService
     {
         private readonly IBookReposetory _bookReposetory;
 
         public BookService(IBookReposetory bookreposetory)
         {
-                _bookReposetory= bookreposetory;
+            _bookReposetory = bookreposetory;
         }
 
         public List<Book> GetAllBooks()
@@ -26,29 +26,45 @@ namespace Library.Servicrs
 
         public int GetBookCodeByName(string book)
         {
-            return _bookReposetory.GetBookCodeByName(book);
+            var mybook = _bookReposetory.GetBookCodeByName(book);
+            if (mybook != null)
+                return mybook.Code;
+            return -1;
         }
 
-        public Book GetBookById(int id) {
-           return _bookReposetory.GetBookById(id);
+        public Book GetBookById(int id)
+        {
+
+            var mybook = _bookReposetory.GetBookById(id);
+            if (mybook != null)
+                return mybook;
+            return null;
         }
 
         public IEnumerable<Book> GetFilterList(Ecategory? category = null, bool? IsBorrowed = null)
         {
-            return _bookReposetory.GetFilterList(category, IsBorrowed);
+            var BooksList = _bookReposetory.GetAllBooks();
+            if (category != null)
+                BooksList = BooksList.Where(book => book.Category == category).ToList();
+
+            if (IsBorrowed != null)
+                BooksList = BooksList.Where(book => book.IsBorrowing == IsBorrowed).ToList();
+
+            return BooksList;
+
         }
 
         public bool AddBook(Book b)
         {
             return _bookReposetory.AddBook(b);
         }
-        public bool UpdateBook(int id,Book b)
+        public bool UpdateBook(int id, Book b)
         {
-            return _bookReposetory.UpdateBook(id,b);
+            return _bookReposetory.UpdateBook(id, b);
         }
         public bool DeleteBook(int id)
-        { 
-           return _bookReposetory.DeleteBook(id);
+        {
+            return _bookReposetory.DeleteBook(id);
 
         }
 

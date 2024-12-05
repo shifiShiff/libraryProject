@@ -1,4 +1,6 @@
-﻿namespace Library.Core.Modals
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Library.Core.Modals
 {
     public enum Ecategory
     {
@@ -10,7 +12,8 @@
     {
         public static int codeBook = 1;
 
-        public int Code { get; } = codeBook++;
+        [Key]
+        public int Code { get; set; } = codeBook++;
         public string Name { get; set; }
         public Ecategory Category { get; set; }
         public string Author { get; set; }

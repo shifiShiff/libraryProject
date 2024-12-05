@@ -11,9 +11,12 @@ namespace Library.Core.Reposetory
     {
         IEnumerable<Borrow> GetAllBorrows();
         IEnumerable<Borrow> GetBorrowByStatus(bool Isreturn);
-        IEnumerable<Borrow> GetBorrowsByIdWithStatus(string Id, bool? Isreturn = null);
-        bool AddBorrow(int Code, string Id);
-        bool UpdateBorrow(int CodeBorrow, string IdSubscribe, int BookCode);
-        bool DeleteBorrow(int BorrowCode);
+        //IEnumerable<Borrow> GetBorrowsByIdWithStatus(string Id, bool? Isreturn = null);
+        Subscribe getSubscribeById(string id);
+        Book getBookById(int Code);
+        Borrow getBorrowById(int Code);
+        void AddBorrow(Borrow borrow);
+        void UpdateBorrow(Borrow MyBorrow, Book MyBook, Subscribe MySubscribe);
+        void DeleteBorrow(Borrow MyBorrow);
     }
 }

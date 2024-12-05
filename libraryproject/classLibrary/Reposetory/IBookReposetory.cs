@@ -11,9 +11,9 @@ namespace Library.Core.Reposetory
     {
         List<Book> GetAllBooks();
 
-        int GetBookCodeByName(string book);
+        Book GetBookCodeByName(string book);
         Book GetBookById(int id);
-        IEnumerable<Book> GetFilterList(Ecategory? category = null, bool? IsBorrowed = null);
+        //IEnumerable<Book> GetFilterList(Ecategory? category = null, bool? IsBorrowed = null);
         bool AddBook(Book b);
         bool UpdateBook(int id, Book b);
         bool DeleteBook(int id);
