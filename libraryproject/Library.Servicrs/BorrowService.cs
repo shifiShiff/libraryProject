@@ -35,7 +35,7 @@ namespace Library.Servicrs
 
         }
 
-        public bool AddBorrow(int Code, string Id)
+        public bool AddBorrow(int Code, int Id)
         {
             var s = _borrowReposetory.getSubscribeById(Id);
             var b = _borrowReposetory.getBookById(Code);
@@ -60,7 +60,7 @@ namespace Library.Servicrs
             }
             return false;
         }
-        public bool UpdateBorrow(int CodeBorrow, string IdSubscribe, int BookCode)
+        public bool UpdateBorrow(int CodeBorrow, int IdSubscribe, int BookCode)
         {
 
             var borrow = _borrowReposetory.getBorrowById(CodeBorrow);

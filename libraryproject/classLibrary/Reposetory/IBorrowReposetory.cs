@@ -12,7 +12,7 @@ namespace Library.Core.Reposetory
         IEnumerable<Borrow> GetAllBorrows();
         IEnumerable<Borrow> GetBorrowByStatus(bool Isreturn);
         //IEnumerable<Borrow> GetBorrowsByIdWithStatus(string Id, bool? Isreturn = null);
-        Subscribe getSubscribeById(string id);
+        Subscribe getSubscribeById(int id);
         Book getBookById(int Code);
         Borrow getBorrowById(int Code);
         void AddBorrow(Borrow borrow);

@@ -1,5 +1,6 @@
 ﻿using Library.Core.Modals;
 using Library.Core.Reposetory;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace Library.Data.Reposetory
         }
         public IEnumerable<Borrow> GetAllBorrows()
         {
-            return _context.borrows.ToList();
+            return _context.borrows.Include(u=> u.BorrowBook).Include(a=> a.Subscriber).ToList();
         }
         public IEnumerable<Borrow> GetBorrowByStatus(bool Isreturn)
         {
@@ -28,9 +29,9 @@ namespace Library.Data.Reposetory
         //    return  _context.borrows.ToList() ;
 
         //}
-        public Subscribe getSubscribeById(string id)
+        public Subscribe getSubscribeById(int id)
         {
-            return _context.subscribers.FirstOrDefault(o => o.Id == id);
+            return _context.subscribers.FirstOrDefault(o => o.SubscribeId == id);
         }
         public Book getBookById(int Code)
         {

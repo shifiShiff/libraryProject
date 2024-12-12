@@ -1,10 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Swashbuckle.AspNetCore.Annotations;
+using System.ComponentModel.DataAnnotations;
 
 namespace Library.Core.Modals
 {
     public class Subscribe
     {
-        [Key]
+        [SwaggerSchema(ReadOnly = true)][Key]
+
         public int SubscribeId { get; set; }
         public string Id { get; set; }
         public string Name { get; set; }

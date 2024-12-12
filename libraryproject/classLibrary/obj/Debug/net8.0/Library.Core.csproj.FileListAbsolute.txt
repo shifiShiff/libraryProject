@@ -70,3 +70,4 @@ F:\netCore\Library.5\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.d
 F:\netCore\Library.5\libraryproject\classLibrary\obj\Debug\net8.0\refint\Library.Core.dll
 F:\netCore\Library.5\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.pdb
 F:\netCore\Library.5\libraryproject\classLibrary\obj\Debug\net8.0\ref\Library.Core.dll
+F:\netCore\Library.5\libraryproject\classLibrary\obj\Debug\net8.0\Library.Core.csproj.AssemblyReference.cache

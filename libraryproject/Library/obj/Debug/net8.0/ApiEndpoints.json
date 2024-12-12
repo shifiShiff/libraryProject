@@ -200,7 +200,7 @@
       },
       {
         "Name": "IdSubscribe",
-        "Type": "System.String",
+        "Type": "System.Int32",
         "IsRequired": false
       },
       {
@@ -262,7 +262,7 @@
       },
       {
         "Name": "Id",
-        "Type": "System.String",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

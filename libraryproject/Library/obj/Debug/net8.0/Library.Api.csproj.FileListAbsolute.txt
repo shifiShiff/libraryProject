@@ -455,3 +455,4 @@ F:\netCore\Library.5\libraryproject\Library\obj\Debug\net8.0\refint\Library.Api.
 F:\netCore\Library.5\libraryproject\Library\obj\Debug\net8.0\Library.Api.pdb
 F:\netCore\Library.5\libraryproject\Library\obj\Debug\net8.0\Library.Api.genruntimeconfig.cache
 F:\netCore\Library.5\libraryproject\Library\obj\Debug\net8.0\ref\Library.Api.dll
+F:\netCore\Library.5\libraryproject\Library\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll
