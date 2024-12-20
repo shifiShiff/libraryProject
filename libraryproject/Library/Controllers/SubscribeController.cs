@@ -1,5 +1,6 @@
 ﻿using Library.Core.Interfaces;
 using Library.Core.Modals;
+using Library.Core.Modals.ModalsDTO;
 using Library.Core.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -69,7 +70,7 @@ namespace Library.Api.Controllers
 
         // הוספת מנוי חדש
         [HttpPost]
-        public ActionResult<bool> Post([FromBody] Subscribe s)
+        public ActionResult<bool> Post([FromBody] SubscribePost s)
         {
            if(_subscribeService.AddSubscribe(s))
                 return Ok(true);
@@ -79,7 +80,7 @@ namespace Library.Api.Controllers
 
         // שינוי פרטי מנוי ע"פ ת.ז
         [HttpPut("{id}")]
-        public ActionResult<bool> Put(string id, [FromBody] Subscribe s)
+        public ActionResult<bool> Put(string id, [FromBody] SubscribePut s)
         {
             if(_subscribeService.UpdateSubscribe(id, s))
                 return Ok(true) ;

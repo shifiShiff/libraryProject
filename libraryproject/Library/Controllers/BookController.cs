@@ -1,5 +1,6 @@
 ﻿using Library.Core.Services;
 using Library.Core.Modals;
+using Library.Core.Modals.ModalsDTO;
 using Microsoft.AspNetCore.Mvc;
 using Library.Core.Interfaces;
 using Library.Servicrs;
@@ -76,7 +77,7 @@ namespace Library.Api.Controllers
 
         // הוספת ספר חדש לרשימת הספרים
         [HttpPost]
-        public ActionResult<bool> Post([FromBody] Book b)
+        public ActionResult<bool> Post([FromBody] BookPost b)
         {
 
             if(_bookService.AddBook(b))
@@ -88,9 +89,8 @@ namespace Library.Api.Controllers
 
         // עדכון ספר ע"פ קוד לפי ספר אחר שמתקבל
         [HttpPut()]
-        public ActionResult<bool> Put(int id, [FromBody] Book b)
+        public ActionResult<bool> Put(int id, [FromBody] BookPost b)
         {
-
             if(_bookService.UpdateBook(id, b))
                 return Ok(true);
             return NotFound(false);

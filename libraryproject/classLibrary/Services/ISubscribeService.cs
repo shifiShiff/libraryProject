@@ -1,4 +1,5 @@
 ﻿using Library.Core.Modals;
+using Library.Core.Modals.ModalsDTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,8 +14,8 @@ namespace Library.Core.Services
         Subscribe GetSubscribeByIdOrName(string? id = null, string? name = null);
         string GetIdByName(string Name);
         IEnumerable<Subscribe> GetFilterSubscribe(bool? IsActive = null, int? NumOfBorrows = null, int? age = null);
-        bool AddSubscribe(Subscribe s);
-        bool UpdateSubscribe(string id, Subscribe s);
+        bool AddSubscribe(SubscribePost s);
+        bool UpdateSubscribe(string id, SubscribePut s);
         bool DeleteSubscribe(string id);
 
     }

@@ -29,7 +29,7 @@
     "Parameters": [
       {
         "Name": "b",
-        "Type": "Library.Core.Modals.Book",
+        "Type": "Library.Core.Modals.ModalsDTO.BookPost",
         "IsRequired": true
       }
     ],
@@ -60,7 +60,7 @@
       },
       {
         "Name": "b",
-        "Type": "Library.Core.Modals.Book",
+        "Type": "Library.Core.Modals.ModalsDTO.BookPost",
         "IsRequired": true
       }
     ],
@@ -200,7 +200,7 @@
       },
       {
         "Name": "IdSubscribe",
-        "Type": "System.Int32",
+        "Type": "System.String",
         "IsRequired": false
       },
       {
@@ -257,7 +257,7 @@
     "Parameters": [
       {
         "Name": "Code",
-        "Type": "System.Int32",
+        "Type": "System.String",
         "IsRequired": true
       },
       {
@@ -365,7 +365,7 @@
     "Parameters": [
       {
         "Name": "s",
-        "Type": "Library.Core.Modals.Subscribe",
+        "Type": "Library.Core.Modals.ModalsDTO.SubscribePost",
         "IsRequired": true
       }
     ],
@@ -396,7 +396,7 @@
       },
       {
         "Name": "s",
-        "Type": "Library.Core.Modals.Subscribe",
+        "Type": "Library.Core.Modals.ModalsDTO.SubscribePut",
         "IsRequired": true
       }
     ],

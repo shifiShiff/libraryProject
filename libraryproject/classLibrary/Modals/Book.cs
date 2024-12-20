@@ -10,10 +10,10 @@ namespace Library.Core.Modals
     };
     public class Book
     {
-        public static int codeBook = 1;
+        
 
         [Key]
-        public int Code { get; set; } = codeBook++;
+        public int Code { get; set; }
         public string Name { get; set; }
         public Ecategory Category { get; set; }
         public string Author { get; set; }

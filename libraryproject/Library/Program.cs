@@ -1,3 +1,4 @@
+using Library.Core;
 using Library.Core.Interfaces;
 using Library.Core.Modals;
 using Library.Core.Reposetory;
@@ -27,6 +28,8 @@ builder.Services.AddScoped<ISubscribeReposetory, SubacribeReposetory>();
 builder.Services.AddScoped<IBorrowService, BorrowService>();
 builder.Services.AddScoped<IBorrowReposetory, BorrowReposetory>();
 builder.Services.AddDbContext<DataContext>();
+//builder.Services.AddAutoMapper(typeof(MappingProfile));
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 //builder.Services.AddSingleton<DataContex>();
 //builder.Services.AddScoped<DataContext>();

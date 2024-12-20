@@ -57,7 +57,7 @@ namespace Library.Api.Controllers
 
         //השאלת ספר לפי קוד ספר ות.ז של לקוח
         [HttpPost("{Code},{Id}")]
-        public ActionResult<bool> Post(int Code, int Id)
+        public ActionResult<bool> Post(string Code, int Id)
         {
 
             if(_borrowService.AddBorrow(Code, Id))
@@ -68,7 +68,7 @@ namespace Library.Api.Controllers
 
         //שינוי פרטי השאלה ע"פ קוד השאלה
         [HttpPut]
-        public ActionResult<bool> Put(int CodeBorrow, int IdSubscribe, int BookCode)
+        public ActionResult<bool> Put(int CodeBorrow, string IdSubscribe, int BookCode)
         {
            if(_borrowService.UpdateBorrow(CodeBorrow, IdSubscribe, BookCode))
                 return Ok(true);

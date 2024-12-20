@@ -5,8 +5,8 @@ namespace Library.Core.Modals
 {
     public class Subscribe
     {
-        [SwaggerSchema(ReadOnly = true)][Key]
-
+        //[SwaggerSchema(ReadOnly = true)]
+        [Key]
         public int SubscribeId { get; set; }
         public string Id { get; set; }
         public string Name { get; set; }

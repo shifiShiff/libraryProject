@@ -1,4 +1,6 @@
-﻿using Library.Core.Modals;
+﻿using AutoMapper;
+using Library.Core.Modals;
+using Library.Core.Modals.ModalsDTO;
 using Library.Core.Reposetory;
 using Library.Core.Services;
 using System;
@@ -13,9 +15,11 @@ namespace Library.Servicrs
     {
 
         private readonly ISubscribeReposetory _subscribeReposetory;
-        public SubscribeService(ISubscribeReposetory subscribe)
+        private readonly IMapper _mapper;
+        public SubscribeService(ISubscribeReposetory subscribe, IMapper mapper)
         {
             _subscribeReposetory = subscribe;
+            _mapper = mapper;
         }
 
         public IEnumerable<Subscribe> GetAllSubscribes()
@@ -54,13 +58,15 @@ namespace Library.Servicrs
 
             return SubscribeList;
         }
-        public bool AddSubscribe( Subscribe s)
+        public bool AddSubscribe( SubscribePost s)
         {
-            return _subscribeReposetory.AddSubscribe(s);
+            var tmp = _mapper.Map<Subscribe>(s);
+            return _subscribeReposetory.AddSubscribe(tmp);
         }
-        public bool UpdateSubscribe(string id, Subscribe s)
+        public bool UpdateSubscribe(string id, SubscribePut s)
         {
-            return _subscribeReposetory.UpdateSubscribe(id, s);
+            var tmp = _mapper.Map<Subscribe>(s);
+            return _subscribeReposetory.UpdateSubscribe(id, tmp);
 
         }
 

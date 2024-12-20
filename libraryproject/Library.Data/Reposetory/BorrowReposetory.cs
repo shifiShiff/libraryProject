@@ -29,6 +29,10 @@ namespace Library.Data.Reposetory
         //    return  _context.borrows.ToList() ;
 
         //}
+        public Subscribe getSubscribeById(string id)
+        {
+            return _context.subscribers.FirstOrDefault(o => o.Id== id);
+        }
         public Subscribe getSubscribeById(int id)
         {
             return _context.subscribers.FirstOrDefault(o => o.SubscribeId == id);

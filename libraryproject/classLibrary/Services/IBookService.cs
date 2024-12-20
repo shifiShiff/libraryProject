@@ -1,4 +1,5 @@
 ﻿using Library.Core.Modals;
+using Library.Core.Modals.ModalsDTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,8 +15,8 @@ namespace Library.Core.Services
         int GetBookCodeByName(string book);
         Book GetBookById(int id);
         IEnumerable<Book> GetFilterList(Ecategory? category = null, bool? IsBorrowed = null);
-        bool AddBook(Book b);
-        bool UpdateBook(int id, Book b);
+        bool AddBook(BookPost b);
+        bool UpdateBook(int id, BookPost b);
         bool DeleteBook(int id);
     }
 }

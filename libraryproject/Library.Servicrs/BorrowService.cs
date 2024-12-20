@@ -3,13 +3,14 @@ using Library.Core.Reposetory;
 using Library.Core.Services;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Library.Servicrs
 {
-    public class BorrowService: IBorrowService
+    public class BorrowService : IBorrowService
     {
         private readonly IBorrowReposetory _borrowReposetory;
         public BorrowService(IBorrowReposetory borrowReposetory)
@@ -21,11 +22,11 @@ namespace Library.Servicrs
         {
             return _borrowReposetory.GetAllBorrows();
         }
-        public IEnumerable<Borrow> GetBorrowByStatus( bool Isreturn)
+        public IEnumerable<Borrow> GetBorrowByStatus(bool Isreturn)
         {
             return _borrowReposetory.GetBorrowByStatus(Isreturn);
         }
-        public IEnumerable<Borrow> GetBorrowsByIdWithStatus(string Id,bool? Isreturn = null)
+        public IEnumerable<Borrow> GetBorrowsByIdWithStatus(string Id, bool? Isreturn = null)
         {
             var SelectBorrows = _borrowReposetory.GetAllBorrows();
             SelectBorrows = SelectBorrows.Where(m => m.Subscriber.Id == Id).ToList();
@@ -35,12 +36,12 @@ namespace Library.Servicrs
 
         }
 
-        public bool AddBorrow(int Code, int Id)
+        public bool AddBorrow(string Code, int Id)
         {
-            var s = _borrowReposetory.getSubscribeById(Id);
-            var b = _borrowReposetory.getBookById(Code);
+            var s = _borrowReposetory.getSubscribeById(Code);
+            var b = _borrowReposetory.getBookById(Id);
 
-            if (s !=null && b != null)
+            if (s != null && b != null)
             {
                 if (b.IsBorrowing == false && s.NumOfCurrentBorrowing < 3)
                 {
@@ -60,31 +61,37 @@ namespace Library.Servicrs
             }
             return false;
         }
-        public bool UpdateBorrow(int CodeBorrow, int IdSubscribe, int BookCode)
+        public bool UpdateBorrow(int CodeBorrow, string IdSubscribe, int BookCode)
         {
 
             var borrow = _borrowReposetory.getBorrowById(CodeBorrow);
-            var subscribe= _borrowReposetory.getSubscribeById(IdSubscribe);
+            var subscribe = _borrowReposetory.getSubscribeById(IdSubscribe);
+            var borrowsubscribe = _borrowReposetory.getSubscribeById(borrow.SubscriberSubscribeId);
             var book = _borrowReposetory.getBookById(BookCode);
+            var borrowBook = _borrowReposetory.getBookById(borrow.BorrowBookCode);
             if (borrow != null && book != null && subscribe != null)
             {
-                if (subscribe.NumOfCurrentBorrowing < 3 && book.IsBorrowing == false)
+                if (book.Code == borrowBook.Code || (book.Code != borrowBook.Code && book.IsBorrowing == false))
                 {
-                    _borrowReposetory.UpdateBorrow(borrow, book, subscribe);
-                    return true;
+                    //if (subscribe.Id == borrow.Subscriber.Id  ||
+                    //    (subscribe.Id != borrow.Subscriber.Id && subscribe.NumOfCurrentBorrowing < 3))
+                    {
+                        _borrowReposetory.UpdateBorrow(borrow, book, subscribe);
+                        return true;
+                    }
                 }
             }
             return false;
         }
         public bool DeleteBorrow(int BorrowCode)
         {
-            var borrow =_borrowReposetory.getBorrowById(BorrowCode);
+            var borrow = _borrowReposetory.getBorrowById(BorrowCode);
             if (borrow != null && borrow.IsReturned == false)
             {
                 _borrowReposetory.DeleteBorrow(borrow);
                 return true;
             }
-            return false ;
+            return false;
         }
 
     }

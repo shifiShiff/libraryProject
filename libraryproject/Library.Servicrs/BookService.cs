@@ -1,4 +1,6 @@
-﻿using Library.Core.Modals;
+﻿using AutoMapper;
+using Library.Core.Modals;
+using Library.Core.Modals.ModalsDTO;
 using Library.Core.Reposetory;
 using Library.Core.Services;
 using System;
@@ -12,10 +14,12 @@ namespace Library.Servicrs
     public class BookService : IBookService
     {
         private readonly IBookReposetory _bookReposetory;
+        private readonly IMapper _mappre;
 
-        public BookService(IBookReposetory bookreposetory)
+        public BookService(IBookReposetory bookreposetory, IMapper mapper)
         {
             _bookReposetory = bookreposetory;
+            _mappre = mapper;
         }
 
         public List<Book> GetAllBooks()
@@ -54,13 +58,15 @@ namespace Library.Servicrs
 
         }
 
-        public bool AddBook(Book b)
+        public bool AddBook(BookPost b)
         {
-            return _bookReposetory.AddBook(b);
+            var tmp = _mappre.Map<Book>(b);
+            return _bookReposetory.AddBook(tmp);
         }
-        public bool UpdateBook(int id, Book b)
+        public bool UpdateBook(int id, BookPost b)
         {
-            return _bookReposetory.UpdateBook(id, b);
+            var tmp = _mappre.Map<Book>(b);
+            return _bookReposetory.UpdateBook(id, tmp);
         }
         public bool DeleteBook(int id)
         {
