@@ -73,12 +73,27 @@ namespace Library.Servicrs
             {
                 if (book.Code == borrowBook.Code || (book.Code != borrowBook.Code && book.IsBorrowing == false))
                 {
-                    //if (subscribe.Id == borrow.Subscriber.Id  ||
-                    //    (subscribe.Id != borrow.Subscriber.Id && subscribe.NumOfCurrentBorrowing < 3))
+                    if (book.Code != borrowBook.Code)
                     {
+                        borrowBook.IsBorrowing = false;
+                        book.IsBorrowing = true;
+                    }
+                    if (subscribe.Id == borrowsubscribe.Id ||
+                        (subscribe.Id != borrowsubscribe.Id && subscribe.NumOfCurrentBorrowing < 3))
+                    {
+                        if (subscribe.Id != borrowsubscribe.Id)
+                        {
+                            subscribe.NumOfCurrentBorrowing++;
+                            subscribe.NumOfBorrows++;
+                            borrowsubscribe.NumOfBorrows--;
+                            borrowsubscribe.NumOfCurrentBorrowing--;
+
+                        }
                         _borrowReposetory.UpdateBorrow(borrow, book, subscribe);
                         return true;
+
                     }
+
                 }
             }
             return false;
@@ -86,9 +101,11 @@ namespace Library.Servicrs
         public bool DeleteBorrow(int BorrowCode)
         {
             var borrow = _borrowReposetory.getBorrowById(BorrowCode);
+            var book = _borrowReposetory.getBookById(borrow.BorrowBookCode);
+            var subscribe = _borrowReposetory.getSubscribeById(borrow.SubscriberSubscribeId);
             if (borrow != null && borrow.IsReturned == false)
             {
-                _borrowReposetory.DeleteBorrow(borrow);
+                _borrowReposetory.DeleteBorrow(borrow, book, subscribe);
                 return true;
             }
             return false;

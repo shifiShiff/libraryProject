@@ -18,6 +18,6 @@ namespace Library.Core.Reposetory
         Borrow getBorrowById(int Code);
         void AddBorrow(Borrow borrow);
         void UpdateBorrow(Borrow MyBorrow, Book MyBook, Subscribe MySubscribe);
-        void DeleteBorrow(Borrow MyBorrow);
+        void DeleteBorrow(Borrow MyBorrow, Book book, Subscribe subscribe);
     }
 }

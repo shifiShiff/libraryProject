@@ -80,10 +80,10 @@ namespace Library.Data.Reposetory
 
         public void UpdateBorrow(Borrow MyBorrow, Book MyBook, Subscribe MySubscribe)
         {
-            MyBorrow.Subscriber.NumOfCurrentBorrowing--;
-            MyBorrow.Subscriber.NumOfBorrows--;
-            MySubscribe.NumOfCurrentBorrowing++;
-            MySubscribe.NumOfBorrows++;
+            //MyBorrow.Subscriber.NumOfCurrentBorrowing--;
+            //MyBorrow.Subscriber.NumOfBorrows--;
+            //MySubscribe.NumOfCurrentBorrowing++;
+            //MySubscribe.NumOfBorrows++;
 
             MyBorrow.Subscriber = MySubscribe;
             MyBorrow.BorrowBook = MyBook;
@@ -91,11 +91,13 @@ namespace Library.Data.Reposetory
 
         }
 
-        public void DeleteBorrow(Borrow MyBorrow)
+        public void DeleteBorrow(Borrow MyBorrow, Book book, Subscribe subscribe)
         {
 
-            MyBorrow.BorrowBook.IsBorrowing = false;
-            MyBorrow.Subscriber.NumOfCurrentBorrowing--;
+            //MyBorrow.BorrowBook.IsBorrowing = false;
+            book.IsBorrowing = false;
+            //MyBorrow.Subscriber.NumOfCurrentBorrowing--;
+            subscribe.NumOfCurrentBorrowing--;
             MyBorrow.IsReturned = true;
             _context.SaveChanges();
 

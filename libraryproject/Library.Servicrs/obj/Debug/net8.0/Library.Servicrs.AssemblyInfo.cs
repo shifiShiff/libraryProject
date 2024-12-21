@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Library.Servicrs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ae37dcd2449e0df8807019c7e582c1c1d76e595")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+403fa0cf0d7485f739f5b227f99d98c54cbcb9fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("Library.Servicrs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Library.Servicrs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
