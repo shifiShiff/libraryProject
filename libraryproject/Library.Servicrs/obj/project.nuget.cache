@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PBPwLnlnh9w=",
+  "dgSpecHash": "l9pANX0riQI=",
   "success": true,
-  "projectFilePath": "F:\\netCore\\Library.5\\libraryproject\\Library.Servicrs\\Library.Servicrs.csproj",
+  "projectFilePath": "F:\\netCore\\Library.5\\libraryproject\\Library.Servicrs\\Library.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

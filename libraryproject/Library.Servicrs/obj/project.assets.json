@@ -697,9 +697,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\netCore\\Library.5\\libraryproject\\Library.Servicrs\\Library.Servicrs.csproj",
-      "projectName": "Library.Servicrs",
-      "projectPath": "F:\\netCore\\Library.5\\libraryproject\\Library.Servicrs\\Library.Servicrs.csproj",
+      "projectUniqueName": "F:\\netCore\\Library.5\\libraryproject\\Library.Servicrs\\Library.Services.csproj",
+      "projectName": "Library.Services",
+      "projectPath": "F:\\netCore\\Library.5\\libraryproject\\Library.Servicrs\\Library.Services.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "F:\\netCore\\Library.5\\libraryproject\\Library.Servicrs\\obj\\",
       "projectStyle": "PackageReference",

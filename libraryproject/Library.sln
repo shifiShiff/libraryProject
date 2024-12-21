@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Core", "classLibrar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Data", "Library.Data\Library.Data.csproj", "{F6C218FD-2BAA-43F4-BE70-BD89475B7A9F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Servicrs", "Library.Servicrs\Library.Servicrs.csproj", "{F5A9DCAA-6982-40C5-B7F3-043B6FD87785}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Services", "Library.Servicrs\Library.Services.csproj", "{F5A9DCAA-6982-40C5-B7F3-043B6FD87785}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
