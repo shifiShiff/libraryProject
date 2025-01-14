@@ -15,7 +15,7 @@ namespace Library.Core
         {
             CreateMap<Subscribe, SubscribePost>().ReverseMap();
             CreateMap<Book, BookPost>().ReverseMap();
-            CreateMap<Borrow, BorrowPost>().ReverseMap();
+            //CreateMap<Borrow, BorrowPost>().ReverseMap();
             CreateMap<Subscribe, SubscribePut>().ReverseMap();
         }
     }

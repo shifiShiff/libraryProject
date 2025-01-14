@@ -1,0 +1,16 @@
+F:\netCore\Library.5\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library.Services.csproj.AssemblyReference.cache
+F:\netCore\Library.5\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library.Services.GeneratedMSBuildEditorConfig.editorconfig
+F:\netCore\Library.5\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library.Services.AssemblyInfoInputs.cache
+F:\netCore\Library.5\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library.Services.AssemblyInfo.cs
+F:\netCore\Library.5\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library.Services.csproj.CoreCompileInputs.cache
+F:\netCore\Library.5\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library.Services.sourcelink.json
+F:\netCore\Library.5\libraryproject\Library.Servicrs\bin\Debug\net8.0\Library.Services.deps.json
+F:\netCore\Library.5\libraryproject\Library.Servicrs\bin\Debug\net8.0\Library.Services.dll
+F:\netCore\Library.5\libraryproject\Library.Servicrs\bin\Debug\net8.0\Library.Services.pdb
+F:\netCore\Library.5\libraryproject\Library.Servicrs\bin\Debug\net8.0\Library.Core.dll
+F:\netCore\Library.5\libraryproject\Library.Servicrs\bin\Debug\net8.0\Library.Core.pdb
+F:\netCore\Library.5\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library..9FA24DEF.Up2Date
+F:\netCore\Library.5\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library.Services.dll
+F:\netCore\Library.5\libraryproject\Library.Servicrs\obj\Debug\net8.0\refint\Library.Services.dll
+F:\netCore\Library.5\libraryproject\Library.Servicrs\obj\Debug\net8.0\Library.Services.pdb
+F:\netCore\Library.5\libraryproject\Library.Servicrs\obj\Debug\net8.0\ref\Library.Services.dll

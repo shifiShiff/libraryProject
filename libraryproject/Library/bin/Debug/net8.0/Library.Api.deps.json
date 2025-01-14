@@ -11,6 +11,7 @@
           "AutoMapper": "13.0.1",
           "Library.Core": "1.0.0",
           "Library.Data": "1.0.0",
+          "Library.Services": "1.0.0",
           "Library.Servicrs": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.11",
           "Swashbuckle.AspNetCore": "7.2.0"
@@ -991,14 +992,14 @@
           }
         }
       },
-      "Library.Servicrs/1.0.0": {
+      "Library.Services/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
           "Library.Core": "1.0.0",
           "Swashbuckle.AspNetCore": "7.2.0"
         },
         "runtime": {
-          "Library.Servicrs.dll": {
+          "Library.Services.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1603,7 +1604,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Library.Servicrs/1.0.0": {
+    "Library.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

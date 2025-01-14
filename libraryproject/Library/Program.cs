@@ -30,6 +30,7 @@ builder.Services.AddScoped<IBorrowReposetory, BorrowReposetory>();
 builder.Services.AddDbContext<DataContext>();
 //builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddAutoMapper(typeof(MappingProfile));
+builder.Services.AddCors();
 
 //builder.Services.AddSingleton<DataContex>();
 //builder.Services.AddScoped<DataContext>();
@@ -54,6 +55,9 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseCors(policy => policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+
 
 app.MapControllers();
 

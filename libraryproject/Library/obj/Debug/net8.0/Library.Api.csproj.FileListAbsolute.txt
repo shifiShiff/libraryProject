@@ -429,16 +429,13 @@ F:\netCore\Library.5\libraryproject\Library\bin\Debug\net8.0\runtimes\win\lib\ne
 F:\netCore\Library.5\libraryproject\Library\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 F:\netCore\Library.5\libraryproject\Library\bin\Debug\net8.0\Library.Core.dll
 F:\netCore\Library.5\libraryproject\Library\bin\Debug\net8.0\Library.Data.dll
-F:\netCore\Library.5\libraryproject\Library\bin\Debug\net8.0\Library.Servicrs.dll
 F:\netCore\Library.5\libraryproject\Library\bin\Debug\net8.0\Library.Core.pdb
 F:\netCore\Library.5\libraryproject\Library\bin\Debug\net8.0\Library.Data.pdb
-F:\netCore\Library.5\libraryproject\Library\bin\Debug\net8.0\Library.Servicrs.pdb
 F:\netCore\Library.5\libraryproject\Library\obj\Debug\net8.0\Library.Api.csproj.AssemblyReference.cache
 F:\netCore\Library.5\libraryproject\Library\obj\Debug\net8.0\Library.Api.GeneratedMSBuildEditorConfig.editorconfig
 F:\netCore\Library.5\libraryproject\Library\obj\Debug\net8.0\Library.Api.AssemblyInfoInputs.cache
 F:\netCore\Library.5\libraryproject\Library\obj\Debug\net8.0\Library.Api.AssemblyInfo.cs
 F:\netCore\Library.5\libraryproject\Library\obj\Debug\net8.0\Library.Api.csproj.CoreCompileInputs.cache
-F:\netCore\Library.5\libraryproject\Library\obj\Debug\net8.0\Library.Api.MvcApplicationPartsAssemblyInfo.cs
 F:\netCore\Library.5\libraryproject\Library\obj\Debug\net8.0\Library.Api.MvcApplicationPartsAssemblyInfo.cache
 F:\netCore\Library.5\libraryproject\Library\obj\Debug\net8.0\Library.Api.sourcelink.json
 F:\netCore\Library.5\libraryproject\Library\obj\Debug\net8.0\staticwebassets.build.json
@@ -457,3 +454,5 @@ F:\netCore\Library.5\libraryproject\Library\obj\Debug\net8.0\Library.Api.genrunt
 F:\netCore\Library.5\libraryproject\Library\obj\Debug\net8.0\ref\Library.Api.dll
 F:\netCore\Library.5\libraryproject\Library\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll
 F:\netCore\Library.5\libraryproject\Library\bin\Debug\net8.0\AutoMapper.dll
+F:\netCore\Library.5\libraryproject\Library\bin\Debug\net8.0\Library.Services.dll
+F:\netCore\Library.5\libraryproject\Library\bin\Debug\net8.0\Library.Services.pdb
